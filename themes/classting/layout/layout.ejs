@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%- page.title ? page.title + ' — ' : '' %><%= config.title %></title>
+    <meta charset="utf-8">
+    <meta name="description" content="<%- theme.site_description %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- <meta property="og:type" content="article">
+    <meta property="og:title" content="<%- page.title ? page.title + ' — ' : '' %>Vue.js">
+    <meta property="og:description" content="<%- theme.site_description %>">
+    <meta property="og:image" content="https://<%- theme.root_domain %>/<%- url_for("/images/logo.png") %>">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="<%- page.title ? page.title + ' — ' : '' %>Vue.js">
+    <meta name="twitter:description" content="<%- theme.site_description %>">
+    <meta name="twitter:image" content="https://<%- theme.root_domain %>/images/logo.png"> -->
+
+    <link rel="icon" href="<%- url_for("/images/logo.png") %>" type="image/x-icon">
+
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Dosis:500&text=Vue.js' rel='stylesheet' type='text/css'>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <%- css('css/style') %>
+    <%- partial('google-analytics') %>
+  </head>
+  <body>
+    <div id="container">
+      <div id="wrap">
+        <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
+        <div class="outer">
+          <section id="main"><%- body %></section>
+        </div>
+        <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+      </div>
+      <%- partial('_partial/after-footer') %>
+    </div>
+  </body>
+</html>
