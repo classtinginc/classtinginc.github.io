@@ -1,45 +1,93 @@
-#main .index
-  & > div
-    padding: 0 16px;
+.row
+  padding: 0 16px;
 
-  h2, h3, p
-    color: color-grey-300;
+.readership, .investors, .office
+  border-top: 1px solid #eee;
+
+.vision, .culture > .wrap
+  background-color: #eee;
+  text-align: center;
+
+.inner-section
+  margin-top: 48px;
+
+  h3, .profile
+    padding: 16px 16px 0;
+
+.vision
+  font-size: 36px;
+
+.description
+  padding: 0 16px;
+  margin-top: 24px;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  word-wrap: break-word;
+
+.stats
+  text-align: center;
 
   h2
-    margin-bottom: 24px;
+    margin-bottom: 0 !important;
 
-  section
-    margin-top: 128px;
+  figure
+    margin-top: 48px;
 
-  figcaption
+  img
+    width: 100%;
+
+.culture
+  .wrap
+    padding: 64px 0;
+
+  & > .description
+    margin-top: 64px;
+    padding: 0 48px;
+
+.readership
+  figure
+    float: left;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-left: 16px;
+
+.investors
+
+  .investor
     margin-top: 16px;
 
-  dl
-    margin: 0 16px;
-    overflow: hidden;
+  img
+    margin: auto;
 
-    dt
-      float: left;
+.office
+  h3
+    margin-top: 0;
 
-    dd
-      margin-left: 72px;
+  img
+    width: 100%
 
-  .vision
-    font-size: 36px;
-    margin: 96px 0;
-    text-align: center;
+  span
+    display: block;
+    margin-top: 8px;
 
-  .team
-    & > h3
-      margin: 64px 0 32px;
+  .map
+    @media only screen and (max-width : 768px)
+      padding-bottom: 16px;
 
-    & > p
-      font-size: 24px;
-      margin-top: 24px;
+.profile
+  overflow: hidden;
+  padding-top: 16px;
 
-    & > div.row
-      padding-top: 16px;
+  dt
+    font-size: 18px;
+    float: left;
 
-  .profile
-    padding: 16px 16
-    padding-right: 16px;
+  dd
+    margin-left: 96px;
+    margin-right: 16px;
+    font-size: 18px;
+    color: color-grey-100;
+
+  a
+    color: color-grey-100;
