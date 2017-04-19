@@ -1,0 +1,84 @@
+.job-opening
+  @extend $round-white-btn
+  width: 240px
+  padding: 8px 0
+
+.find-team
+  font-size: 36px
+  background-color: #eee
+  text-align: center
+
+.how-we-work .row
+  margin-top: 48px
+
+  img
+    @media only screen and (max-width : 992px)
+      margin: auto
+
+  .mobile
+    @media only screen and (max-width : 768px)
+      display: block
+
+    @media only screen and (min-width : 768px)
+      display: block
+
+    @media only screen and (min-width : 992px)
+      display: none
+
+    @media only screen and (min-width : 1200px)
+      display: none
+
+  .pc
+    @media only screen and (max-width : 768px)
+      display: none
+
+    @media only screen and (min-width : 768px)
+      display: none
+
+    @media only screen and (min-width : 992px)
+      display: block
+
+    @media only screen and (min-width : 1200px)
+      display: block
+
+.benefit
+  overflow: hidden
+
+  figure
+    float: left
+    margin-top: 10px;
+    margin-right: 16px
+
+  .benefit-desc
+    h4, p
+      @media only screen and (max-width : 768px)
+        margin-left: 64px
+
+.find-members
+  @extend $divider-top
+  margin: 48px 0;
+
+  article
+    @extend $divider-bottom
+    position: relative
+    overflow: hidden
+    padding: 16px 0
+
+    .btn-lg
+      position: absolute
+      margin-top: -22px
+      top: 50%
+      right: 0
+
+.position-faq
+  text-align: center
+
+  p
+    margin-top: 16px
+
+  a
+    color: color-green-500
+    text-decoration: underline
+
+    &:hover
+      font-weight: bold
