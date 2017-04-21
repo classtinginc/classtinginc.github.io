@@ -2,6 +2,8 @@
   margin-top: 48px
 
   img
+    margin: auto
+
     @media only screen and (max-width : 992px)
       margin: auto
 
@@ -10,7 +12,7 @@
       display: block
 
     @media only screen and (min-width : 768px)
-      display: block
+      display: none
 
     @media only screen and (min-width : 992px)
       display: none
@@ -23,7 +25,7 @@
       display: none
 
     @media only screen and (min-width : 768px)
-      display: none
+      display: block
 
     @media only screen and (min-width : 992px)
       display: block
@@ -32,17 +34,16 @@
       display: block
 
 .benefit
-  overflow: hidden
+  // overflow: hidden
 
-  figure
-    float: left
-    margin-top: 10px;
-    margin-right: 16px
+  // figure
+  //   float: left
+  //   margin-right: 16px
 
-  .benefit-desc
-    h4, p
-      @media only screen and (max-width : 768px)
-        margin-left: 64px
+  // .benefit-desc
+  //   h4, p
+  //     @media only screen and (max-width : 768px)
+  //       margin-left: 64px
 
 .find-members
   @extend $divider-top
