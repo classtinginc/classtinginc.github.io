@@ -1,5 +1,34 @@
+<% site.posts.each(function(post){ %>
+    title : <%- post.title %>
+    <%- post.categories.title %>
+    <br />
+  <% }) %>
+
+aaaaa : <%- site.posts.length %>
+bbbbb : <%- site.posts.find({categories : 'news'}).length %>
+cc : <%- site.categories.findOne({name: 'news'}).posts.length %>
+dd : <%- site.categories.findOne({name: 'news'}).posts.length %>
+dd : <%- site.categories.findOne({name: 'news'}).posts.find({lang : 'ko'}).length %>
+
+<br/>
+change lang : <%- switch_lang('en') %>
+default lang : <%- default_lang() %>
+page.lang : <%- page.lang %>
+</br />
+
+<% site.posts.each(function(post){ %>
+    <%- url_for(post.path) %>
+    <br />
+  <% }) %>
+
+  <% site.posts.each(function(post){ %>
+      <%- url_for_lang(post.path) %>
+      <br />
+    <% }) %>
+
+
 <section class="container guide">
-  <h2>Press Information</h2>
+  <h2><%- __('news.title') %></h2>
 
   <div class="row">
     <article class="col-lg">

@@ -8,13 +8,33 @@ subtitle: lalllall
 description:
 author: John Doe
 language:
+  - ko
+  - en
 timezone:
+
+i18n:
+  type:
+    - page
+    - post
+    - careers
+    - products
+    - business
+    - news
+  generator:
+    - index
+    - archive
+    - category
+    - tag
+    - careers
+    - products
+    - business
+    - news
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :lang/:title/
 permalink_defaults:
 
 # Directory
@@ -23,14 +43,12 @@ public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
-# career_dir: careers
-# business_dir: business
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :lang/:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -61,6 +79,24 @@ time_format: HH:mm:ss
 ## Set per_page to 0 to disable pagination
 per_page: 2
 pagination_dir: page
+
+# hexo-generator-basic-set
+index_generator:
+  per_page: 5
+  order_by: -date
+
+archive_generator:
+  per_page: 5
+  yearly: true
+  monthly: true
+  daily: false
+
+category_generator:
+  per_page: 5
+
+tag_generator:
+   per_page: 5
+   enable_index_page: false
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
