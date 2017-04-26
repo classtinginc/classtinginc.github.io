@@ -1,8 +1,10 @@
 .how-we-work .row
   margin-top: 48px
 
-  img
-    margin: auto
+  @media only screen and (max-width : 992px)
+    img
+      margin: auto
+      width: 160px
 
     @media only screen and (max-width : 992px)
       margin: auto
@@ -12,7 +14,7 @@
       display: block
 
     @media only screen and (min-width : 768px)
-      display: none
+      display: block
 
     @media only screen and (min-width : 992px)
       display: none
@@ -25,7 +27,7 @@
       display: none
 
     @media only screen and (min-width : 768px)
-      display: block
+      display: none
 
     @media only screen and (min-width : 992px)
       display: block
@@ -35,7 +37,7 @@
 
 .find-members
   @extend $divider-top
-  margin: 48px 0
+  margin: 48px 15px
 
   article
     @extend $divider-bottom
@@ -51,6 +53,8 @@
 
 .position-faq
   text-align: center
+  padding-right: 15px
+  padding-left: 15px
 
   p
     margin-top: 16px
