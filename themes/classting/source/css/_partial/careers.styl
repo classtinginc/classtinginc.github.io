@@ -1,8 +1,14 @@
+.careers-cover
+  @extend $wide
+  background-image: url(images/ct_careers.jpg)
+
 .how-we-work .row
   margin-top: 48px
 
-  img
-    margin: auto
+  @media only screen and (max-width : 992px)
+    img
+      margin: auto
+      width: 160px
 
     @media only screen and (max-width : 992px)
       margin: auto
@@ -12,7 +18,7 @@
       display: block
 
     @media only screen and (min-width : 768px)
-      display: none
+      display: block
 
     @media only screen and (min-width : 992px)
       display: none
@@ -25,7 +31,7 @@
       display: none
 
     @media only screen and (min-width : 768px)
-      display: block
+      display: none
 
     @media only screen and (min-width : 992px)
       display: block
@@ -33,15 +39,21 @@
     @media only screen and (min-width : 1200px)
       display: block
 
+.benefit
+  margin-bottom: 30px
+
+  img
+    width: 36px
+
 .find-members
   @extend $divider-top
-  margin: 48px 0
+  margin: 48px 15px
 
   article
     @extend $divider-bottom
     position: relative
     overflow: hidden
-    padding: 16px 0 16px 16px;
+    padding: 16px
 
     .btn-lg
       position: absolute
@@ -51,6 +63,8 @@
 
 .position-faq
   text-align: center
+  padding-right: 15px
+  padding-left: 15px
 
   p
     margin-top: 16px

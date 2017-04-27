@@ -1,9 +1,17 @@
-.products article
-  @extend $divider-bottom
-  padding-bottom: 36px
-  margin-bottom: 36px
+.products-cover
+  @extend $wide
+  background-image: url(images/ct_products.jpg)
 
-  &:nth-last-child(1)
-    border-bottom: none
+.products
+  article
+    @extend $divider-bottom
+    padding-bottom: 36px
+    margin-bottom: 36px
+
+    &:nth-last-child(1)
+      border-bottom: none
+      margin-bottom: 0
+      padding-bottom: 0
+
+  figure
     margin-bottom: 0
-    padding-bottom: 0
