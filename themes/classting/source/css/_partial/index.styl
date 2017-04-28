@@ -31,9 +31,16 @@
   img
     width: 100%
 
+  article
+    padding: 24px 0
+
+  .row
+    padding-top: 64px !important
+
 .culture
   .wrap
-    padding: 64px 0
+    @extend $wide
+    background-image: url(images/ct_culture.jpg)
 
   & > .description
     margin-top: 64px
@@ -48,6 +55,7 @@
 
   img
     margin: auto
+    max-width: 240px
 
 .office
   h3
@@ -82,12 +90,9 @@
 
   dt
     font-size: 18px
-    float: left
 
   dd
-    margin-left: 96px
     margin-right: 16px
-    font-size: 18px
     color: color-grey-400
 
   a
