@@ -1,5 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
-categories:    # Set post or job
+categories: # news or job
+tags: # news / press etc..
+publisher:
 ---
