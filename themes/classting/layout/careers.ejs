@@ -165,30 +165,7 @@
   </p>
 
   <div class="find-members">
-    <article>
-      <h4>Visual Designer</h4>
-      <span>Creative Lab</span>
-
-      <div class="btn-lg">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      </div>
-    </article>
-    <article>
-      <h4>Visual Designer</h4>
-      <span>Creative Lab</span>
-
-      <div class="btn-lg">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      </div>
-    </article>
-    <article>
-      <h4>Visual Designer</h4>
-      <span>Creative Lab</span>
-
-      <div class="btn-lg">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      </div>
-    </article>
+    <%- partial('_partial/job-preview', { posts: site.categories.findOne({name: 'job'}).posts.find({lang : page.lang}) }) %>
   </div>
 
   <div class="position-faq">

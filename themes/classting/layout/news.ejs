@@ -33,7 +33,7 @@
   <h2>News</h2>
 
   <div class="news">
-    <%- partial('_partial/news-post', { posts: site.categories.findOne({name: 'news'}).posts.find({lang : page.lang}) }) %>
+    <%- partial('_partial/news-preview', { posts: site.categories.findOne({name: 'news'}).posts.find({lang : page.lang}) }) %>
 
     <nav aria-label="article navigation">
       <ul class="pagination justify-content-center">
