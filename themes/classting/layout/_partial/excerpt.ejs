@@ -1,6 +1,6 @@
 <% posts.each(function(post) { %>
   <article>
-    <a href="<%- post.path %>">
+    <a href="<%- url_for(post.path) %>">
       <div class="row">
         <div class="col-md-4">
           <span><%- date(post.date, 'YYYY. MM. DD') %></span>
