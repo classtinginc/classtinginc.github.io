@@ -10,7 +10,7 @@
 
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item<%- page.title === undefined ? ' active' : '' %>">
+        <li class="nav-item<%- is_home() && !page.path.match(/news/) ? ' active' : '' %>">
           <a class="nav-link" <a href="<%- url_for("/") %>">About us</a>
         </li>
         <li class="nav-item<%- page.path.match(/careers/) ? ' active' : '' %>">
