@@ -1,9 +1,57 @@
-.section-title
-  text-align: center
-  margin-bottom: 40px
+.brandguide
+  text-align: left
+
+  img
+    margin: auto
+
+  p
+    min-height: 50px;
+
+  dt
+    margin: 6px 0
+
+  dd
+    color: color-grey-400
+    margin-bottom: 16px
+
+  .brand-desc
+    margin-top: 16px;
+
+  .section-title
+    text-align: center
+    margin-bottom: 80px
 
   .btn-green
     width: 240px !important
+
+  .usage
+    margin-top: 60px;
+
+  .mobile
+    @media only screen and (max-width : 768px)
+      display: block
+
+    @media only screen and (min-width : 768px)
+      display: block
+
+    @media only screen and (min-width : 992px)
+      display: none
+
+    @media only screen and (min-width : 1200px)
+      display: none
+
+  .pc
+    @media only screen and (max-width : 768px)
+      display: none
+
+    @media only screen and (min-width : 768px)
+      display: none
+
+    @media only screen and (min-width : 992px)
+      display: block
+
+    @media only screen and (min-width : 1200px)
+      display: block
 
 .bottom-divider
   @extend $divider-bottom
@@ -39,48 +87,3 @@
 #colorbar-yellow
   height: 32px
   background-color: color-yellow-500
-
-.brandguide
-  text-align: left
-
-  img
-    margin: auto
-
-  article
-    margin-top: 16px;
-
-  p
-    min-height: 50px;
-
-  dt
-    margin: 6px 0
-
-  dd
-    color: color-grey-400
-    margin-bottom: 16px
-
-  .mobile
-    @media only screen and (max-width : 768px)
-      display: block
-
-    @media only screen and (min-width : 768px)
-      display: block
-
-    @media only screen and (min-width : 992px)
-      display: none
-
-    @media only screen and (min-width : 1200px)
-      display: none
-
-  .pc
-    @media only screen and (max-width : 768px)
-      display: none
-
-    @media only screen and (min-width : 768px)
-      display: none
-
-    @media only screen and (min-width : 992px)
-      display: block
-
-    @media only screen and (min-width : 1200px)
-      display: block
