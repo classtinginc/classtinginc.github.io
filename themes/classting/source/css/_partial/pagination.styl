@@ -1,0 +1,33 @@
+.navigation
+  overflow: hidden
+  text-align: center;
+
+  .prev
+    float: left
+
+  .next
+    float: right
+
+  .disabled a
+    color: color-grey-400
+    pointer-events: none
+    cursor: not-allowed
+
+  .pagination, li
+    display: inline-block !important
+
+  .pagination
+    @media only screen and (max-width : 576px)
+      display: none !important
+
+  .page-link
+    border: none
+    color: color-black
+    text-decoration: none
+
+    &:hover
+      color: color-green-500
+      background: none
+
+    &.current
+      color: color-green-500

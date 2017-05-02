@@ -1,19 +1,22 @@
-categories: Categories
-search: Search
-tags: Tags
-tagcloud: Tag Cloud
-tweets: Tweets
-prev: Prev
-next: Next
-comment: Comments
-archive_a: Archives
-archive_b: "Archives: %s"
-page: Page %d
-recent_posts: Recent Posts
-newer: Newer
-older: Older
-share: Share
+news:
+  title: 프레스 인포메이션
+
+categories: 카테고리 리스트
+search: 검색
+tags: 태그 리스트
+tagcloud: 태그 클라우드
+tweets: 트윗
+prev: 이전
+next: 다음
+comment: 댓글
+archive_a: 보관하기
+archive_b: "보관하기: %s"
+page: 페이지 %d
+recent_posts: 최근 포스트
+newer: 신규
+older: 이전
+share: 공유
 powered_by: Powered by
-rss_feed: RSS Feed
-category: Category
-tag: Tag
+rss_feed: RSS 피드
+category: 카테고리
+tag: 태그
