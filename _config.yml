@@ -25,7 +25,7 @@ i18n:
     - archive
     - category
     - tag
-    
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
@@ -37,7 +37,7 @@ permalink_defaults:
 source_dir: source
 public_dir: public
 tag_dir: tags
-archive_dir: archives
+archive_dir: news
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
@@ -78,21 +78,12 @@ pagination_dir: page
 
 # hexo-generator-basic-set
 index_generator:
-  per_page: 5
+  per_page: 2
   order_by: -date
 
-archive_generator:
-  per_page: 5
-  yearly: true
-  monthly: true
-  daily: false
-
-category_generator:
-  per_page: 5
-
-tag_generator:
-   per_page: 5
-   enable_index_page: false
+news_generator:
+  per_page: 2
+  order_by: -date
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
