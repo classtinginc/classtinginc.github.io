@@ -93,4 +93,4 @@ theme: classting
 deploy:
   type: git
   repo: git@github.com:classtinginc/classtinginc.github.io.git
-  branch: gh-pages
+  branch: master
