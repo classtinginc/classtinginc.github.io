@@ -27,7 +27,7 @@ i18n:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.classting.com
+url: http://classtinginc.github.io
 root: /
 permalink: :lang/:title/
 permalink_defaults:
@@ -93,5 +93,4 @@ theme: classting
 deploy:
   type: git
   repo: git@github.com:classtinginc/classtinginc.github.io.git
-  branch: master
-  message: classting inc.
+  branch: gh-pages
