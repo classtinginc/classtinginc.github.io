@@ -1,8 +1,9 @@
-# classting-hexo
+# Classting Company
 
 이 사이트는 [hexo](http://hexo.io/)로 만들었습니다.
 
-## 전제조건
+
+# Setup
 
 `npm`과 `node`가 설치되어 있어야 합니다.
 
@@ -11,7 +12,7 @@
 [npm, node 설치가이드](http://hochulshin.com/node-install-osx/)
 
 
-## 개발
+## Developing & Testing
 
 `localhost:4000`로 접속하세요:
 
@@ -22,7 +23,7 @@ $ hexo server
 ```
 
 
-## 글 작성법
+## Writing Tip
 
 Post를 생성합니다.
 생성 규칙은 아래와 같습니다.
@@ -50,7 +51,7 @@ link: # categories가 job일 경우에만 이동되야 할 link를 입력하세�
 [markdown 문법 보기](https://gist.github.com/ihoneymon/652be052a0727ad59601)
 
 
-## 배포
+## Deploying
 
 히스토리와 상관없이 아래와 같이 입력하면 됩니다:
 
