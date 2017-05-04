@@ -1,4 +1,4 @@
-# classtinginc.classting.net
+# [compnay.classting.net](https://company.classting.net)
 
 이 사이트는 [hexo](http://hexo.io/)로 만들었습니다.
 
