@@ -8,6 +8,16 @@
       <img src="/images/classting_logo.png" alt="Classting">
     </a>
 
+    page.path : <%- page.path %>
+    <br />
+    page.path.match(news) : <%- page.path.match(/news/) %>, is_home : <%- is_home() %>
+    <br />
+    page.path.match(careers) : <%- page.path.match(/careers/) %>
+    <br />
+    page.path.match(business) : <%- page.path.match(/business/) %>
+    <br />
+    page.path.match(news) : <%- page.path.match(/news/) %>
+    <br />
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item<%- is_home() && !page.path.match(/news/) ? ' active' : '' %>">
