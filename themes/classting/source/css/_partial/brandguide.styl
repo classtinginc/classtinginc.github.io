@@ -1,18 +1,39 @@
-.section-title
-  text-align: center
-  margin-bottom: 40px
+.brandguide
+  text-align: left
+
+  img
+    margin: auto
+
+  em
+    color: color-black
+    font-style: normal
+    font-weight: 700
+    display: block
+    margin-top: 6px
+
+  h3
+    padding: 0 15px
+    width: 100%
+
+  .section-title
+    text-align: center
+    margin-bottom: 60px
+
+  .inner-section
+    display: block
+    padding: 64px 0 !important
+    margin: 0
+    @extend $divider-bottom
 
   .btn-green
     width: 240px !important
-
-.bottom-divider
-  @extend $divider-bottom
 
 .box
   border:1px solid color-grey-200
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 24px;
 
 .logotype
   height: 240px
@@ -35,52 +56,13 @@
 #colorbar-green
   height: 32px
   background-color: color-green-500
+  margin-top: 24px;
 
 #colorbar-yellow
   height: 32px
   background-color: color-yellow-500
+  margin-top: 24px;
 
-.brandguide
-  text-align: left
-
-  img
-    margin: auto
-
-  article
-    margin-top: 16px;
-
-  p
-    min-height: 50px;
-
-  dt
-    margin: 6px 0
-
-  dd
-    color: color-grey-400
-    margin-bottom: 16px
-
-  .mobile
-    @media only screen and (max-width : 768px)
-      display: block
-
-    @media only screen and (min-width : 768px)
-      display: block
-
-    @media only screen and (min-width : 992px)
-      display: none
-
-    @media only screen and (min-width : 1200px)
-      display: none
-
-  .pc
-    @media only screen and (max-width : 768px)
-      display: none
-
-    @media only screen and (min-width : 768px)
-      display: none
-
-    @media only screen and (min-width : 992px)
-      display: block
-
-    @media only screen and (min-width : 1200px)
-      display: block
+.permission
+  padding: 0 15px
+  margin-top: 60px

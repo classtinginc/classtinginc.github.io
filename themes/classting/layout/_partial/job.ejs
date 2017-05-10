@@ -1,0 +1,10 @@
+<% posts.sort('date', 1).each(function(post) { %>
+  <article>
+    <a href="<%- post.link %>">
+      <h4><%- post.title %></h4>
+      <span><%- post.publisher %></span>
+
+      <i class="icon fa fa-chevron-right" aria-hidden="true"></i>
+    </a>
+  </article>
+<% }) %>
