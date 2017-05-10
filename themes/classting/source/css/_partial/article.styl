@@ -1,11 +1,10 @@
 .article
-  margin: 128px auto;
+  margin: 24px auto;
 
 .article-inner
   overflow: hidden
-  width: 90%
+  max-width: 940px
   margin: 0 auto
-  padding: 3% 5%
 
 .article-date
   @extend $block-caption
@@ -29,10 +28,10 @@
 
 .article-title
   text-decoration: none
-  font-size: 2em
-  font-weight: bold
-  color: color-default
-  line-height: line-height-title
+  font-size: 2.2em
+  font-weight: 500
+  color: color-black
+  line-height: 1.5em
   transition: color 0.2s
   a&:hover
     color: color-link
@@ -50,8 +49,11 @@
   h1, h2, h3, h4, h5, h6
     line-height: line-height-title
     margin: line-height-title 0
+  p
+    font-size: 1.2em
+    color: color-black
   a
-    color: color-link
+    color: color-green-500
     text-decoration: none
     &:hover
       text-decoration: underline
@@ -60,9 +62,10 @@
     margin-bottom: line-height
   img, video
     max-width: 100%
+    max-height: 600px
     height: auto
     display: block
-    margin: auto
+    margin: 40px auto
   iframe
     border: none
   table
@@ -165,12 +168,12 @@
 
 .article-share-link
   cursor: pointer
-  float: right
-  margin-left: 20px
-  &:before
-    content: "\f064"
-    font-family: font-icon
-    padding-right: 6px
+  float: left
+//  margin-left: 20px
+//  &:before
+//    content: "\f064"
+//    font-family: font-icon
+//    padding-right: 6px
 
 #article-nav
   clearfix()
