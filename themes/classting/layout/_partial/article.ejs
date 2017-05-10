@@ -3,20 +3,13 @@
     <%- partial('post/gallery') %>
     <% if (post.link || post.title){ %>
       <header class="article-header">
-        <%- partial('post/title', {class_name: 'article-title'}) %>
+        <span><%- date(post.date, 'YYYY. MM. DD') %></span>
+        <h4><%- post.publisher %></h4>
+        <h1><%= post.title %></h1>
       </header>
     <% } %>
     <div class="article-entry" itemprop="articleBody">
-      <% if (post.excerpt && index){ %>
-        <%- post.excerpt %>
-        <% if (theme.excerpt_link){ %>
-          <p class="article-more-link">
-            <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
-          </p>
-        <% } %>
-      <% } else { %>
-        <%- post.content %>
-      <% } %>
+      <%- post.content %>
     </div>
     <footer class="article-footer">
       <a class="article-share-link" onClick="history.go(-1);return true;">목록으로 돌아가기</a>
