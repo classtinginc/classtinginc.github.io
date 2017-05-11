@@ -79,6 +79,10 @@ news_generator:
 # Extensions
 theme: classting
 
+# SiteMap
+sitemap:
+  path: sitemap.xml
+
 # Deployment
 deploy:
   type: git
