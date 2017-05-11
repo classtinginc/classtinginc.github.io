@@ -151,7 +151,7 @@
 <section class="container" id="opening">
   <h2>Openings</h2>
   <div class="find-members">
-    <%- partial('_partial/job', { posts: site.categories.findOne({name: 'job'}).posts.find({lang : page.lang}) }) %>
+    <%- partial('_partial/job', { posts: site.categories.findOne({name: 'job'}).posts.sort('-date').find({lang : page.lang}) }) %>
   </div>
 
   <div class="position-faq">
