@@ -7,22 +7,16 @@
     <meta name="description" content="<%- theme.site_description %>">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <!-- <meta property="og:type" content="article">
-    <meta property="og:title" content="<%- page.title ? page.title + ' — ' : '' %>Vue.js">
-    <meta property="og:description" content="<%- theme.site_description %>">
-    <meta property="og:image" content="https://<%- theme.root_domain %>/<%- url_for("/images/logo.png") %>">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="<%- page.title ? page.title + ' — ' : '' %>Vue.js">
-    <meta name="twitter:description" content="<%- theme.site_description %>">
-    <meta name="twitter:image" content="https://<%- theme.root_domain %>/images/logo.png"> -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="<%- page.title ? page.title + ' — ' : '' %><%- __('message.share_preview.title') %>">
+    <meta property="og:description" content="<%- __('message.share_preview.desc') %>">
+    <meta property="og:image" content="https://<%- theme.root_domain %>/<%- url_for("/images/share_preview.jpg") %>">
 
     <link rel="icon" href="<%- url_for("/images/logo.png") %>" type="image/x-icon">
-
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Dosis:500&text=Vue.js' rel='stylesheet' type='text/css'>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
