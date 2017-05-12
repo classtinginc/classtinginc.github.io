@@ -1,1 +1,135 @@
-메롱 careers
+<section class="container-fluid careers-cover">
+  <div class="container">
+    <p class="light">
+      <%- __('page.careers.banner.title') %>
+    </p>
+
+    <a class="btn btn-default btn-white" href="#opening" role="button"><%- __('btn.job_openings') %></a>
+  </div>
+</section>
+
+<section class="container how-we-work">
+  <h2><%- __('section_title.careers.work') %></h2>
+
+  <div class="row justify-content-center">
+    <figure class="col-lg-3">
+      <img alt="how-we-work-1" src="/images/how-we-work-1.png" class="img-fluid" alt="Responsive image" />
+    </figure>
+    <article class="col-lg-6 col-lg-6">
+      <h3><%- __('page.careers.work1.title') %></h3>
+      <p><%- __('page.careers.work1.desc') %></p>
+    </article>
+  </div>
+  <div class="row justify-content-center">
+    <figure class="col-lg-3 mobile">
+      <img alt="how-we-work-2" src="/images/how-we-work-2.png" class="img-fluid" alt="Responsive image" />
+    </figure>
+    <article class="col-lg-6 col-lg-6">
+      <h3><%- __('page.careers.work2.title') %></h3>
+      <p><%- __('page.careers.work2.desc') %></p>
+    </article>
+    <figure class="col-lg-3 pc">
+      <img alt="how-we-work-2" src="/images/how-we-work-2.png" class="img-fluid" alt="Responsive image" />
+    </figure>
+  </div>
+  <div class="row justify-content-center">
+    <figure class="col-lg-3">
+      <img alt="how-we-work-3" src="/images/how-we-work-3.png" class="img-fluid" alt="Responsive image" />
+    </figure>
+    <article class="col-lg-6 col-lg-6">
+      <h3><%- __('page.careers.work3.title') %></h3>
+      <p><%- __('page.careers.work3.desc') %></p>
+    </article>
+  </div>
+  <div class="row justify-content-center">
+    <figure class="col-lg-3 mobile">
+      <img alt="how-we-work-4" src="/images/how-we-work-4.png" class="img-fluid" alt="Responsive image" />
+    </figure>
+    <article class="col-lg-6 col-lg-6">
+      <h3><%- __('page.careers.work4.title') %></h3>
+      <p><%- __('page.careers.work4.desc') %></p>
+    </article>
+    <figure class="col-lg-3 pc">
+      <img alt="how-we-work-4" src="/images/how-we-work-4.png" class="img-fluid" alt="Responsive image" />
+    </figure>
+  </div>
+  <div class="row justify-content-center">
+    <figure class="col-lg-3">
+      <img alt="how-we-work-5" src="/images/how-we-work-5.png" class="img-fluid" alt="Responsive image" />
+    </figure>
+    <article class="col-lg-6 col-lg-6">
+      <h3><%- __('page.careers.work5.title') %></h3>
+      <p><%- __('page.careers.work5.desc') %></p>
+    </article>
+</div>
+</section>
+
+<section class="container">
+  <h2><%- __('section_title.careers.benefits') %></h2>
+
+  <div class="row">
+    <div class="col-md benefit">
+      <div class="row">
+        <figure class="col-lg-2 col-md-3 col-sm-2">
+          <img src="/images/icon-careers-ob-1.png" alt="profile" class="img-circle">
+        </figure>
+        <div class="col-md-8 col-sm-8 benefit-desc">
+          <h4><%- __('page.careers.benefits1.title') %></h4>
+          <p><%- __('page.careers.benefits1.desc') %></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md benefit">
+      <div class="row">
+        <figure class="col-lg-2 col-md-3 col-sm-2">
+          <img src="/images/icon-careers-ob-2.png" alt="profile" class="img-circle">
+        </figure>
+        <div class="col-md-8 col-sm-8 benefit-desc">
+          <h4><%- __('page.careers.benefits2.title') %></h4>
+          <p><%- __('page.careers.benefits2.desc') %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md benefit">
+      <div class="row">
+        <figure class="col-lg-2 col-md-3 col-sm-2">
+          <img src="/images/icon-careers-ob-3.png" alt="profile" class="img-circle">
+        </figure>
+        <div class="col-md-8 col-sm-8 benefit-desc">
+          <h4><%- __('page.careers.benefits3.title') %></h4>
+          <p><%- __('page.careers.benefits3.desc') %></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md benefit">
+      <div class="row">
+        <figure class="col-lg-2 col-md-3 col-sm-2">
+          <img src="/images/icon-careers-ob-4.png" alt="profile" class="img-circle">
+        </figure>
+        <div class="col-md-8 col-sm-8 benefit-desc">
+          <h4><%- __('page.careers.benefits4.title') %></h4>
+          <p><%- __('page.careers.benefits4.desc') %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container" id="opening">
+  <h2><%- __('section_title.careers.openings') %></h2>
+  <div class="find-members">
+    <%- partial('_partial/job', { posts: site.categories.findOne({name: 'job'}).posts.sort('-date').find({lang : page.lang}) }) %>
+  </div>
+
+  <div class="position-faq">
+    <h3><%- __('page.careers.openings.title') %></h3>
+    <p>
+      <%- __('page.careers.openings.desc1') %>
+      <br />
+      <a href="mailto:withus@classting.com">withus@classting.com</a>
+      <%- __('page.careers.openings.desc2') %>
+    </p>
+  </div>
+</section>
