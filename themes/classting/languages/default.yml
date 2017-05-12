@@ -1,22 +1,35 @@
-news:
-  title: 프레스 인포메이션
-
-categories: 카테고리 리스트
-search: 검색
-tags: 태그 리스트
-tagcloud: 태그 클라우드
-tweets: 트윗
-prev: 이전
-next: 다음
-comment: 댓글
-archive_a: 보관하기
-archive_b: "보관하기: %s"
-page: 페이지 %d
-recent_posts: 최근 포스트
-newer: 신규
-older: 이전
-share: 공유
-powered_by: Powered by
-rss_feed: RSS 피드
-category: 카테고리
-tag: 태그
+# Loco yaml export: Symfony YAML object
+# Project: Classting Company
+# Release: Working copy
+# Locale: ko-KR, Korean (Republic of Korea)
+# Exported by: classting
+# Exported at: Fri, 12 May 2017 04:09:52 +0100
+---
+page:
+  about:
+    banner:
+      title: 클래스팅은 더 나은 학교를 꿈꿉니다
+      desc: |-
+        "클래스팅은 한 명의 교사가 많은 학생을 가르쳐야하는 상황에서도
+        <br />
+        최고의 교육을 할 수 있는 서비스를 개발하고,
+        <br />
+        다음 세대를 위해 더 나은 교육 환경을 준비합니다."
+    stats:
+      desc: 2017년 3월 기준
+    stats1:
+      number: 135,000+
+      title: 월간 활성 교사 수
+    stats2:
+      number: 1,600,000+
+      title: 월간 활성 사용자 수
+    stats3:
+      number: 82%
+      title: 연간 교사 잔존율
+    culture:
+      title: 클래스팅의 문화
+      desc: 클래스팅에서는 최고의 성과를 내기 위해 자유로운 문화를 만듭니다. 개개인이 책임감을 갖고 최고의 성과를 낼 것이라는 신뢰를 기반으로 자유로운 업무 환경이 유지됩니다. 그리고 눈치 보기보다는 누구나 참여할 수 있는 소통의 자리를 만들어 함께 문제를 해결합니다. 더 나은 교육 환경을 만들기 위한 목표를 향해 탁월한 능력과 팀웍이 공존하는 클래스팅을 함께 만들어가고 있습니다.
+section_title:
+  about:
+    stats: 통계
+...
