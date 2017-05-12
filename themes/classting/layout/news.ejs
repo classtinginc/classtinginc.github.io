@@ -4,31 +4,31 @@
       <figure>
         <img alt="Company" src="/images/icon-pi-company.png" class="img-fluid" alt="Responsive image" />
       </figure>
-      <h3>회사 소개서</h3>
-      <p>주식회사 클래스팅 소개 자료입니다.</p>
-      <a class="btn btn-default btn-green" href="#" role="button">소개자료 보기</a>
+      <h3><%- __('page.news.company_intro.title') %></h3>
+      <p><%- __('page.news.company_intro.hint') %></p>
+      <a class="btn btn-default btn-green" href="#" role="button"><%- __('btn.view_guide') %></a>
     </article>
     <article class="col-lg">
       <figure>
         <img alt="Brand" src="/images/icon-pi-brandguidelines.png" class="img-fluid" alt="Responsive image" />
       </figure>
-      <h3>브랜드 가이드라인</h3>
-      <p>클래스팅 로고를 사용하실 때, 브랜드 가이드 라인을 참고하세요.</p>
-      <a class="btn btn-default btn-green" href="<%- url_for("/brandguide") %>" role="button">자세히 보기</a>
+      <h3><%- __('page.news.brand_guide.title') %></h3>
+      <p><%- __('page.news.brand_guide.hint') %></p>
+      <a class="btn btn-default btn-green" href="<%- url_for("/brandguide") %>" role="button"><%- __('btn.view_detail') %></a>
     </article>
     <article class="col-lg mobile-hide">
       <figure>
         <img alt="Images" src="/images/icon-pi-image.png" class="img-fluid" alt="Responsive image" />
       </figure>
-      <h3>사진 자료실</h3>
-      <p>클래스 서비스 관련 공식 이미지를 다운받으세요.</p>
-      <a class="btn btn-default btn-green" href="https://goo.gl/npIOEO" role="button" target="_blank">자세히 보기</a>
+      <h3><%- __('page.news.photos.title') %></h3>
+      <p><%- __('page.news.photos.hint') %></p>
+      <a class="btn btn-default btn-green" href="https://goo.gl/npIOEO" role="button" target="_blank"><%- __('btn.view_detail') %></a>
     </article>
   </div>
 </section>
 
 <section class="container">
-  <h2>News</h2>
+  <h2><%- __('section_title.news.news') %></h2>
 
   <div class="news">
     <%- partial('_partial/excerpt', { posts: page.posts }) %>
