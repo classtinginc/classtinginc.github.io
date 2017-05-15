@@ -88,5 +88,5 @@ theme: classting
 # Deployment
 deploy:
   type: git
-  repository: https://${GH_TOKEN}:x-oauth-basic@github.com/classtinginc/classtinginc.github.io.git
+  repository: https://c198effcb3f78ef913d1e200d86e8d185156c592:x-oauth-basic@github.com/classtinginc/classtinginc.github.io.git
   branch: master
