@@ -9,3 +9,7 @@ deployment:
       - hexo clean
       - hexo generate
       - hexo deploy
+
+test:
+  override:
+    - echo 'Skip test'
