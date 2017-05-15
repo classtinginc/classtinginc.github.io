@@ -3,18 +3,18 @@
 # Release: Working copy
 # Locale: ko-KR, Korean (Republic of Korea)
 # Exported by: classting
-# Exported at: Fri, 12 May 2017 10:54:28 +0100
+# Exported at: Mon, 15 May 2017 03:08:52 +0100
 ---
 page:
   about:
     banner:
       title: 클래스팅은 더 나은 학교를 꿈꿉니다
       desc: |-
-        "클래스팅은 한 명의 교사가 많은 학생을 가르쳐야하는 상황에서도
+        클래스팅은 한 명의 교사가 많은 학생을 가르쳐야하는 상황에서도
         <br />
         최고의 교육을 할 수 있는 서비스를 개발하고,
         <br />
-        다음 세대를 위해 더 나은 교육 환경을 준비합니다."
+        다음 세대를 위해 더 나은 교육 환경을 준비합니다.
     stats:
       desc: 2017년 3월 기준
     stats1:
@@ -34,23 +34,23 @@ page:
         <br />
         변화를 가져오려는 원대한 꿈을 향해 전진하고 있습니다.
       ceo:
-        title: Dave Cho
+        title: 조현구
         subtitle: Chief Executive Officer
         desc: 전 초등교사였던 조현구는 2013년에 클래스팅을 설립했습니다. 서울교대 컴퓨터교육 석사과정 중 교실에서 학생들이 즐겁게 배울 수 있는 방법을 연구 중 클래스팅을 직접 개발하게 되었습니다.
       cto:
-        title: Jayden Yoo
+        title: 유재상
         subtitle: Chief Technology Officer
         desc: 공동창업자인 유재상은 클래스팅의 CTO로 서비스 구축 및 엔지니어링 팀을 총괄합니다. 전 ETRI 연구원이었고 KAIST 전산학 석사 학위를 취득하였습니다.
       cso:
-        title: Calvin Kang
+        title: 강경훈
         subtitle: Chief Strategy Officer
-        desc: 캘빈은 클래스팅의 CSO로 비지니스 전략 및 운영을 총괄합니다. 전 우버코리아 대표였고 INSEAD MBA과정을 이수하였습니다.
+        desc: 강경훈은 클래스팅의 CSO로 비지니스 전략 및 운영을 총괄합니다. 전 우버코리아 대표였고 INSEAD MBA과정을 이수하였습니다.
       cio:
-        title: Daniel Kim
+        title: 김정훈
         subtitle: Chief Information Officer
         desc: 김정훈은 클래스팅의 CIO로 데이터 및 인프라 시스템을 담당합니다. 클래스팅에 합류하기 전에는 삼성전자 DMC연구소에서 VD apps 서버 설계 및 운영을 담당했습니다.
       advisors:
-        title: Advisors
+        title: 고문단
       advisor1:
         title: 문규학
         desc: Softbank Ventures CEO
@@ -88,7 +88,7 @@ page:
           <br />
           Classting Japan, Inc. Keio Fujisawa Innovation Village (SFC-IV), 4489-105 Endo, Fujisawa-city, Kanagawa-prefecture, Tokyo, #252-0816
       contact:
-        title: 연락처
+        title: 문의하기
         main_email: 일반문의
         career_email: 채용문의
         phone: 대표번호
@@ -219,23 +219,23 @@ section_title:
   about:
     stats: 통계
     leaders: 리더십
-    investors: Investors
-    office: Office
+    investors: 투자자
+    office: 사무실
   careers:
-    work: How we work
-    benefits: Office & Benefits
-    openings: Openings
+    work: 클래스팅이 일하는 방법
+    benefits: 업무환경
+    openings: 채용 분야
   products:
-    products: Products
+    products: 제품
   business:
-    with_classting: Business with Classting
-    partners: Business Partnerships
+    with_classting: 비즈니스
+    partners: 비즈니스 파트너
   news:
-    news: News
+    news: 뉴스
   brand:
     brand_guidelines: 브랜드 가이드
 btn:
-  job_openings: Job Openings
+  job_openings: 채용 분야
   view_guide: 소개자료 보기
   go_to_developers: 개발자 페이지로 이동
   view_detail: 자세히 보기
@@ -254,9 +254,9 @@ message:
     title: 주식회사 클래스팅
     desc: 클래스팅은 한 명의 교사가 많은 학생을 가르쳐야하는 상황에서도 최고의 교육을 할 수 있는 서비스를 개발하고, 다음 세대를 위해 더 나은 교육 환경을 준비합니다.
 nav:
-  about: About us
-  careers: Careers
-  products: Products
-  business: Business
-  news: News
+  about: 회사소개
+  careers: 채용정보
+  products: 제품
+  business: 비즈니스
+  news: 뉴스
 ...
