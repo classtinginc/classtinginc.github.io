@@ -1,6 +1,5 @@
 <article class="container article">
   <div class="article-inner">
-    <%- partial('post/gallery') %>
     <% if (post.link || post.title){ %>
       <header class="article-header">
         <span><%- date(post.date, 'YYYY. MM. DD') %></span>
@@ -12,7 +11,7 @@
       <%- post.content %>
     </div>
     <footer class="article-footer">
-      <a class="article-share-link" onClick="history.go(-1);return true;">목록으로 돌아가기</a>
+      <a class="article-share-link" onClick="history.go(-1);return true;"><%- __('btn.return_to_list') %></a>
     </footer>
   </div>
 </article>

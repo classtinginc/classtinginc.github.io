@@ -12,15 +12,15 @@
       <figure>
         <img alt="Images" src="/images/icon-pi-image.png" class="img-fluid" alt="Responsive image" />
       </figure>
-      <h3>사진 자료실</h3>
-      <p>클래스 서비스 관련 공식 이미지를 다운받으세요.</p>
-      <a class="btn btn-default btn-green" href="https://goo.gl/npIOEO" role="button" target="_blank">자세히 보기</a>
+      <h3><%- __('page.news.photos.title') %></h3>
+      <p><%- __('page.news.photos.hint') %></p>
+      <a class="btn btn-default btn-green" href="https://goo.gl/npIOEO" role="button" target="_blank"><%- __('btn.view_detail') %></a>
     </article>
   </div>
 </section>
 
 <section class="container">
-  <h2>News</h2>
+  <h2><%- __('section_title.news.news') %></h2>
 
   <div class="news">
     <%- partial('_partial/excerpt', { posts: page.posts }) %>

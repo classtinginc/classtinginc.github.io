@@ -11,19 +11,19 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item<%- is_home() && !page.path.match(/news/) ? ' active' : '' %>">
-          <a class="nav-link" <a href="<%- url_for("/") %>">About us</a>
+          <a class="nav-link" <a href="<%- url_for("/") %>"><%- __('nav.about') %></a>
         </li>
         <li class="nav-item<%- page.path.match(/careers/) ? ' active' : '' %>">
-          <a class="nav-link" href="<%- url_for("/careers") %>">Careers</a>
+          <a class="nav-link" href="<%- url_for("/careers") %>"><%- __('nav.careers') %></a>
         </li>
         <li class="nav-item<%- page.path.match(/products/) ? ' active' : '' %>">
-          <a class="nav-link" href="<%- url_for("/products") %>">Products</a>
+          <a class="nav-link" href="<%- url_for("/products") %>"><%- __('nav.products') %></a>
         </li>
         <li class="nav-item<%- page.path.match(/business/) ? ' active' : '' %>">
-          <a class="nav-link" href="<%- url_for("/business") %>">Business</a>
+          <a class="nav-link" href="<%- url_for("/business") %>"><%- __('nav.business') %></a>
         </li>
         <li class="nav-item<%- page.path.match(/news/) ? ' active' : '' %>">
-          <a class="nav-link" href="<%- url_for("/news") %>">News</a>
+          <a class="nav-link" href="<%- url_for("/news") %>"><%- __('nav.news') %></a>
         </li>
       </ul>
     </div>

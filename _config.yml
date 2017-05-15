@@ -82,5 +82,5 @@ theme: classting
 # Deployment
 deploy:
   type: git
-  repo: git@github.com:classtinginc/classtinginc.github.io.git
+  repository: git@github.com:classtinginc/classtinginc.github.io.git
   branch: master

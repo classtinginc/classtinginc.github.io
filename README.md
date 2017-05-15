@@ -8,20 +8,20 @@
 `npm`과 `node`가 설치되어 있어야 합니다.
 
 [brew 설치가이드](https://brew.sh/)
-
 [npm, node 설치가이드](http://hochulshin.com/node-install-osx/)
 
+```
+$ npm install -g hexo-cli
+```
 
 ## Developing & Testing
 
 `localhost:4000`로 접속하세요:
 
 ```
-$ npm install -g hexo-cli
 $ npm install
 $ hexo server
 ```
-
 
 ## Writing Tip
 
@@ -53,11 +53,16 @@ link: # categories가 job일 경우에만 이동되야 할 link를 입력하세�
 
 ## Deploying
 
-히스토리와 상관없이 아래와 같이 입력하면 됩니다:
+언어별 문구 정보를 받아올 수 있습니다:
 
 ```
-$ hexo clean
-$ hexo d --generate
+$ sh ./pull_locale.sh
+```
+
+히스토리와 상관없이 새로운 문구 정보가 포함되어 배포할 수 있습니다:
+
+```
+$ sh ./deploy.sh
 ```
 
 1~2분 후, [company.classting.net](https://compnay.classting.net)을 확인하세요.
@@ -70,4 +75,3 @@ news 페이지에 post panination을 위한 library를 npmjs에 등록되어 있
 [hex-generator-news](https://www.npmjs.com/package/hexo-generator-news)
 
 [hex-generator-news repository](https://github.com/classtinginc/hexo-generator-news)
-
