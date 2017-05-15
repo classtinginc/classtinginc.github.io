@@ -76,6 +76,12 @@ news_generator:
   per_page: 10
   order_by: -date
 
+alias:
+  category/blog/guide-en/: http://support.classting.com
+  category/blog-ja/guide-ja/index.html: http://support.classting.com
+  category/blog-ko/guide/index.html: http://support.classting.com
+  category/blog-zh-hant/guide-zh-hant/index.html: http://support.classting.com
+
 # Extensions
 theme: classting
 
