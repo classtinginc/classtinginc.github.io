@@ -120,7 +120,10 @@
 <section class="container" id="opening">
   <h2><%- __('section_title.careers.openings') %></h2>
   <div class="find-members">
-    <%- partial('_partial/job', { posts: site.categories.findOne({name: 'job'}).posts.sort('-date').find({lang : page.lang}) }) %>
+    <% var jobs = site.categories.findOne({name: 'job'}).posts.sort('-date').find({lang : page.lang}) %>
+    <% if (jobs !== undefined) { %>
+      <%- partial('_partial/job', { posts: jobs }) %>
+    <% } %>
   </div>
 
   <div class="position-faq">
