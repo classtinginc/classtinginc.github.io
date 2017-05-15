@@ -1,6 +1,6 @@
-<% posts.sort('date', 1).each(function(post) { %>
+<% posts.each(function(post) { %>
   <article>
-    <a href="<%- post.link %>">
+    <a href="<%- post.link %>" target="_blank">
       <h4><%- post.title %></h4>
       <span><%- post.publisher %></span>
 
