@@ -1,0 +1,15 @@
+deployment:
+  production:
+    branch: master
+    commands:
+      - git config --global user.name "Cassting"
+      - git config --global user.email "classting@classting.com"
+      - sed -i'' "s~https://github.com/techlahoma/okcsharp-website.git~https://c198effcb3f78ef913d1e200d86e8d185156c592:x-oauth-basic@github.com/techlahoma/okcsharp-website.git~" _config.yml
+      - rm -rf .deploy_git/
+      - hexo clean
+      - hexo generate
+      - hexo deploy
+
+test:
+  override:
+    - echo 'Skip test'

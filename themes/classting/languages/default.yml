@@ -1,19 +1,262 @@
-categories: Categories
-search: Search
-tags: Tags
-tagcloud: Tag Cloud
-tweets: Tweets
-prev: Prev
-next: Next
-comment: Comments
-archive_a: Archives
-archive_b: "Archives: %s"
-page: Page %d
-recent_posts: Recent Posts
-newer: Newer
-older: Older
-share: Share
-powered_by: Powered by
-rss_feed: RSS Feed
-category: Category
-tag: Tag
+# Loco yaml export: Symfony YAML object
+# Project: Classting Company
+# Release: Working copy
+# Locale: ko-KR, Korean (Republic of Korea)
+# Exported by: classting
+# Exported at: Mon, 15 May 2017 03:08:52 +0100
+---
+page:
+  about:
+    banner:
+      title: 클래스팅은 더 나은 학교를 꿈꿉니다
+      desc: |-
+        클래스팅은 한 명의 교사가 많은 학생을 가르쳐야하는 상황에서도
+        <br />
+        최고의 교육을 할 수 있는 서비스를 개발하고,
+        <br />
+        다음 세대를 위해 더 나은 교육 환경을 준비합니다.
+    stats:
+      desc: 2017년 3월 기준
+    stats1:
+      title: 월간 활성 교사 수
+    stats2:
+      title: 월간 활성 사용자 수
+    stats3:
+      title: 연간 교사 잔존율
+    culture:
+      title: 클래스팅의 문화
+      desc: 클래스팅에서는 최고의 성과를 내기 위해 자유로운 문화를 만듭니다. 개개인이 책임감을 갖고 최고의 성과를 낼 것이라는 신뢰를 기반으로 자유로운 업무 환경이 유지됩니다. 그리고 눈치 보기보다는 누구나 참여할 수 있는 소통의 자리를 만들어 함께 문제를 해결합니다. 더 나은 교육 환경을 만들기 위한 목표를 향해 탁월한 능력과 팀웍이 공존하는 클래스팅을 함께 만들어가고 있습니다.
+    leaders:
+      desc: |-
+        교사 출신 대표를 중심으로 다양한 분야의 팀원들이 모였습니다.
+        <br />
+        편리한 서비스, 획기적인 기술력으로 한 걸음씩 전 세계 교육 환경에
+        <br />
+        변화를 가져오려는 원대한 꿈을 향해 전진하고 있습니다.
+      ceo:
+        title: 조현구
+        subtitle: Chief Executive Officer
+        desc: 전 초등교사였던 조현구는 2013년에 클래스팅을 설립했습니다. 서울교대 컴퓨터교육 석사과정 중 교실에서 학생들이 즐겁게 배울 수 있는 방법을 연구 중 클래스팅을 직접 개발하게 되었습니다.
+      cto:
+        title: 유재상
+        subtitle: Chief Technology Officer
+        desc: 공동창업자인 유재상은 클래스팅의 CTO로 서비스 구축 및 엔지니어링 팀을 총괄합니다. 전 ETRI 연구원이었고 KAIST 전산학 석사 학위를 취득하였습니다.
+      cso:
+        title: 강경훈
+        subtitle: Chief Strategy Officer
+        desc: 강경훈은 클래스팅의 CSO로 비지니스 전략 및 운영을 총괄합니다. 전 우버코리아 대표였고 INSEAD MBA과정을 이수하였습니다.
+      cio:
+        title: 김정훈
+        subtitle: Chief Information Officer
+        desc: 김정훈은 클래스팅의 CIO로 데이터 및 인프라 시스템을 담당합니다. 클래스팅에 합류하기 전에는 삼성전자 DMC연구소에서 VD apps 서버 설계 및 운영을 담당했습니다.
+      advisors:
+        title: 고문단
+      advisor1:
+        title: 문규학
+        desc: Softbank Ventures CEO
+      advisor2:
+        title: 김경성
+        desc: 서울교육대학교 총장
+      advisor3:
+        title: Li Cai
+        desc: UCLA CRESST 연구소장
+    office:
+      korea:
+        title: 한국 본사
+        desc: |-
+          서울특별시 강남구 압구정로10길 21, 3층, (주)클래스팅
+          <br />
+          (신사동, 533-1)
+          <br />
+          우편번호 06028
+      parking:
+        title: '주차:'
+        desc: 인근 마사빌딩 주차장 이용 (서울특별시 강남구 압구정로10길 13)
+      us:
+        desc: |-
+          미국 법인
+          <br />
+          Classting America, Inc 3530 Wilshire Boulevard Suite 210, Los Angeles, Ca 90010
+      china:
+        desc: |-
+          중국 법인
+          <br />
+          Shanghai Classtong Network Technologies Co., LTD. 1/F Building 2, 81 Fu Te Reload North, Wai Gao Qiao Free Trade Zone, Shanghai
+      japan:
+        desc: |-
+          일본 법인
+          <br />
+          Classting Japan, Inc. Keio Fujisawa Innovation Village (SFC-IV), 4489-105 Endo, Fujisawa-city, Kanagawa-prefecture, Tokyo, #252-0816
+      contact:
+        title: 문의하기
+        main_email: 일반문의
+        career_email: 채용문의
+        phone: 대표번호
+        phone_no: 1544-0570
+        fax: 팩스
+        fax_no: 070-8882-4886
+        phone_call: "+8215440570"
+        fax_send: "+8207088824886"
+  careers:
+    banner:
+      title: |-
+        더 나은 교육 환경을
+        <br />
+        함께 만들어 갈 팀원을 찾습니다.
+    work1:
+      title: 교사, 학생, 학부모의 목소리에 귀 기울입니다.
+      desc: 정성을 담아 아이디어 공유해주시는 선생님, 솔직한 댓글 달아주는 학생, 시간내어 전화문의 해주 시는 학부모님의 의견을 항상 들으며 어떤 필요가 있는지, 어떤 생각을 하는지 알게됩니다. 고객의 목소리로 우리가 앞으로 갈 방향을 알게 됩니다.
+    work2:
+      title: 고객에게 중요한 것을 위해 일합니다.
+      desc: 클래스팅에서는 최단 시간에 고객에게 중요한 것이 무엇인지 찾기 위해 Agile process, Design sprint 등을 통해 학습하고 제품을 발전시켜 갑니다.매일 교실 혹은 집에서 서로 소통하고 학습 할 수 있도록 항상 기대에 부응하는 제품을 만들기 위해 일합니다.
+    work3:
+      title: 글로벌 교육 리더들과 함께 일합니다.
+      desc: 클래스팅 교사 자문단, 미국 교육평가 연구소, 서울교육대학교 등 글로벌 교육 리더들과 함께 다 양한 연구에 참여하고 있습니다. 클래스팅을 통한 교육적 효과를 측정하고 앞으로 교육이 발전해야하는 방향을 같이 고민합니다.
+    work4:
+      title: 형식보다 성과를 중요시합니다.
+      desc: 형식적인 업무 시간, 경력 등 보다는 성과로 평가하여 모든 팀원이 좋은 성과를 내는데 집중할 수 있는 업무환경을 추구합니다. 각 팀원이 최고의 성과를 낼 수 있도록 유연하고 자유로운 업무 환경을 제공하고 있습니다.
+    work5:
+      title: 팀원들이 같이 성장할 수 있도록 서로 이끕니다.
+      desc: 반복적인 업무로 전문성을 기르는 것도 중요하지만 항상 새로운 것을 배우고 성장할 수 있도록 팀원들이 서로 이끕니다. 도전적인 프로젝트를 참여하거나 그룹 스터디를 하면서 같이 성장할 수 있는 기회가 항상 열려있습니다.
+    benefits1:
+      title: 식비 지원
+      desc: 밥 걱정 안해도 됩니다. 점심, 저녁 그리고 퀄리티 높은 간식을 지원합니다.
+    benefits2:
+      title: 자율 출퇴근, 원격 업무 가능
+      desc: 자율 출퇴근, 원격업무, 자유로운 휴가로 최고의 퍼포먼스를 낼 수 있는 최적화된 근무 환경을 제공합니다.
+    benefits3:
+      title: 경쟁력 있는 근로 조건
+      desc: 역량에 맞는 연봉 및 스톡옵션을 제공합니다. 4대보험은 당연히 제공합니다.
+    benefits4:
+      title: 자기계발비 지원
+      desc: 업무에 필요한 IT기기 구입비와 컨퍼런스 참가비, 도서 구입 등을 모두 지원합니다.
+    openings:
+      title: 혹시 찾고 계신 채용 포지션이 아직 없나요?
+      desc1: 휼룡한 인재에게는 항상 문이 열려있습니다.
+      desc2: 으로 연락주시면 추후 공고 게재 시 우선적으로 검토하겠습니다.
+  products:
+    banner:
+      title: |-
+        고객이 공감하고 손쉽게 사용할 수 있는
+        <br />
+        제품을 만듭니다.
+    class:
+      title: 클래스
+      desc: 교사를 중심으로 학생, 학부모와 활동할 수 있는 공간입니다. 공지, 게시글, 사진, 영상 콘텐츠를 공유하고 학급을 관리할 수 있습니다.
+    notice:
+      title: 학급공지
+      desc: 교사가 학생, 학부모에게 전달할 공지를 PC, 스마트폰, SMS로 빠짐없지 전달할 수 있습니다. 공지 예약해 보내고, 아직 확인 안한 사람에게 다시 보낼 수 있습니다.
+    newsfeed:
+      title: 소식
+      desc: 우리 반 새로운 소식, 온라인 커뮤니티의 최근 활동 등 최신 소식을 한번에 확인할 수 있습니다. 게시글빛내기를 누르거나 답글을 달 수 있습니다.
+    school:
+      title: 스쿨
+      desc: 내 학교에 개설된 클래스를 확인하고, 가정통신문, 학교 공지, 급식 정보를 구독해 받아볼 수 있습니다.
+    lc:
+      title: 러닝카드
+      desc: 내 스마트기기 하나로 영어, 수학, 과학 등 다양한 과목의 교육 콘텐츠로 학습할 수 있습니다. 매일 추천되는 콘텐츠로 효율적인 공부를 할 수 있습니다.
+  business:
+    banner:
+      title: |-
+        클래스팅은 학교 - 가정 - 교육회사를 연결하고
+        <br />
+        교육 정보 비대칭을 해소하고자 합니다.
+    content:
+      title: 교육 컨텐츠
+      desc: 문제집, 참고서, 동영상 등 다양한 유형의 교육 컨텐츠를 클래스팅 고객과 연결합니다.
+    ad:
+      title: 교육 상품, 브랜드, 정보
+      desc: 교육 회사의 좋은 상품, 브랜드, 정보를 맞춤식으로 고객에게 연결합니다.
+    developers:
+      title: 교육 앱, 서비스
+      desc: 클래스팅의 API를 이용하여 편리하고 풍성한 교육 서비스를 만들어보세요.
+  news:
+    company_intro:
+      title: 회사 소개서
+      hint: 주식회사 클래스팅 소개 자료입니다.
+    brand_guide:
+      title: 브랜드 가이드
+      hint: 클래스팅 로고를 사용하실 때, 브랜드 가이드를 참고하세요.
+    photos:
+      title: 사진 자료실
+      hint: 클래스 서비스 관련 공식 이미지를 다운받으세요.
+  brand:
+    logo:
+      title: 클래스팅 로고
+      logotype:
+        title: Logotype
+        desc: 가장 많이 사용합니다.
+      glyph:
+        title: Glyph
+        desc: 공간이 부족한 UI에서 사용합니다.
+    logo_guide:
+      title: 로고타입 가이드
+      green:
+        title: Classting Green
+        hint: 백색 배경에 이용하세요.
+      yellow:
+        title: Classting Yellow
+        hint: CT Green 색상 혹은 어두운 색상의 배경에 이용하세요.
+      white:
+        title: White
+        hint: 배경이 어두운 경우 혹은 사진 배경에 이용하세요.
+    colors:
+      title: 브랜드 컬러
+      green:
+        title: Classting Green
+        hint: |-
+          HEX #0abcad
+          <br>
+          CMYK 68/00/40/0
+      yellow:
+        title: Classting Yellow
+        hint: |-
+          HEX #fff988
+          <br>
+          CMYK 0/0/60/0
+    permission: 로고 형태, 색상 등 모든 경우의 수정을 할 생각도 하지 않으셔서 감사드립니다.
+section_title:
+  about:
+    stats: 통계
+    leaders: 리더십
+    investors: 투자자
+    office: 사무실
+  careers:
+    work: 클래스팅이 일하는 방법
+    benefits: 업무환경
+    openings: 채용 분야
+  products:
+    products: 제품
+  business:
+    with_classting: 비즈니스
+    partners: 비즈니스 파트너
+  news:
+    news: 뉴스
+  brand:
+    brand_guidelines: 브랜드 가이드
+btn:
+  job_openings: 채용 분야
+  view_guide: 소개자료 보기
+  go_to_developers: 개발자 페이지로 이동
+  view_detail: 자세히 보기
+  download_logo: 로고 다운로드
+  view_more: 더보기
+  prev: 이전
+  next: 다음
+  return_to_list: 목록으로 돌아가기
+footer:
+  classting: Classting
+  lc: Learning Card
+  developers: Developers
+  classting_inc: 주식회사 클래스팅
+message:
+  share_preview:
+    title: 주식회사 클래스팅
+    desc: 클래스팅은 한 명의 교사가 많은 학생을 가르쳐야하는 상황에서도 최고의 교육을 할 수 있는 서비스를 개발하고, 다음 세대를 위해 더 나은 교육 환경을 준비합니다.
+nav:
+  about: 회사소개
+  careers: 채용정보
+  products: 제품
+  business: 비즈니스
+  news: 뉴스
+...

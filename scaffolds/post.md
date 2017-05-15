@@ -1,5 +1,8 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
+categories:       # news or job
+tags:             # news / press etc..
+publisher:
+link:
 ---

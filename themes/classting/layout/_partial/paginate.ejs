@@ -1,0 +1,23 @@
+<% const PAGE = 10 %>
+<% var format = config.pagination_dir + '/%d/' %>
+<% var start = page.total - page.current > PAGE ? page.current : 1 %>
+<% var total = page.total - page.current > PAGE ? page.current + PAGE : page.total %>
+
+<nav class="navigation" aria-label="article navigation">
+  <p class="prev<%- page.prev === 0 ? ' disabled' : '' %>">
+    <a class="page-link" href="<%- url_for(page.current <= 2 ? page.base : page.base + format.replace('%d', page.current - 1)) %>"><%- __('btn.prev') %></a>
+  </li>
+  <ul class="pagination">
+    <% for (var i = start; i <= total; i++) { %>
+      <% var url = url_for(i === 1 ? page.base : page.base + format.replace('%d', i)) %>
+        <li class="page-item">
+          <a class="page-link<%- i === page.current ? ' current' : '' %>" href="<%- url %>">
+            <%- i %>
+          </a>
+        </li>
+    <% } %>
+  </ul>
+  <p class="next<%- page.next === 0 ? ' disabled' : '' %>">
+    <a class="page-link" href="<%-  url_for(page.base + format.replace('%d', page.current + 1)) %>"><%- __('btn.next') %></a>
+  </li>
+</nav>
