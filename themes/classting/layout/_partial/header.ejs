@@ -26,6 +26,17 @@
           <a class="nav-link" href="<%- url_for("/news") %>"><%- __('nav.news') %></a>
         </li>
       </ul>
+
+      <ul class="nav navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          언어
+        </a>
+        <div class="dropdown-menu" aria-labelledby="menu">
+          <a class="dropdown-item" href="<%- switch_lang('en') %>">English</a>
+          <a class="dropdown-item" href="<%- switch_lang('ko') %>">한국어</a>
+        </div>
+      </ul>
     </div>
   </div>
 </nav>
