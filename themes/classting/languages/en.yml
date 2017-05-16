@@ -1,4 +1,254 @@
+# Loco yaml export: Symfony YAML object
+# Project: Classting Company
+# Release: Working copy
+# Locale: en-US, English (USA)
+# Exported by: classting
+# Exported at: Tue, 16 May 2017 10:28:06 +0100
 ---
-status: 404
-error: Locale not found
+page:
+  about:
+    banner:
+      title: Classing dreams of a better school
+      desc: |-
+        Classing develops services that provide the best possible education
+        <br />
+        even when one teacher has to teach many students
+        <br />
+         and prepares a better learning environment for the next generation.
+    stats:
+      desc: |
+        March 2017
+    stats1:
+      title: active teachers per month
+    stats2:
+      title: active users per month
+    stats3:
+      title: |
+        Annual teacher retention rate
+    culture:
+      title: Classting Culture
+      desc: In Classing, we create a free culture to achieve the best results. A free working environment is maintained based on the belief that individuals will be responsible and perform best. And, rather than seeing it, we create a place where everyone can participate and resolve the problem together. We are working together to create a classroom where excellent ability and teamwork coexist to the goal of creating a better educational environment.
+    leaders:
+      desc: "Team members from various fields gathered around the ex-teacher CEO.\n<br />\nWith convenient service and breakthrough technology, we are moving forward to a grand dream \n<br />\nof making a change in the educational environment around the world."
+      ceo:
+        title: Dave Cho
+        subtitle: Chief Executive Officer
+        desc: Former elementary teacher Cho Hyun-gu established Classing in 2013. During the graduate program of Computer Education at Seoul National University, he has developed Classting for students to learn how to enjoy the classroom.
+      cto:
+        title: Jayden Yoo
+        subtitle: Chief Technology Officer
+        desc: Co-founder Yoo Jae-sang is the CTO of Classing and oversees service construction and engineering teams. He was an ETRI researcher and earned a master's degree in computer science from KAIST.
+      cso:
+        title: Calvin Kang
+        subtitle: Chief Strategy Officer
+        desc: Kang Kyung-hoon is the CSO of Classing and oversees business strategy and operations. He was the Uber Korea representative and I completed the INSEAD MBA.
+      cio:
+        title: Daniel Kim
+        subtitle: Chief Information Officer
+        desc: Daniel is the CIO of Classing and is responsible for data and infrastructure systems. Prior to joining Classing, he was responsible for designing and operating the VD apps server at Samsung Electronics DMC Research Center.
+      advisors:
+        title: Advisors
+      advisor1:
+        title: Greg Moon
+        desc: Softbank Ventures, CEO
+      advisor2:
+        title: Kyungsung Kim
+        desc: Seoul National University of Education, President
+      advisor3:
+        title: Li Cai
+        desc: UCLA CRESST, Director
+    office:
+      korea:
+        title: Korea Office
+        desc: |-
+          Classting, Inc. 3F, 21, Apgujeong-ro 10-gil, Gangnam-gu, Seoul
+          <br />
+          #135-889
+      parking:
+        title: 'Parking:'
+        desc: Use Masa building parking space
+      us:
+        desc: |-
+          US Office
+          <br />
+          Classting America, Inc 3530 Wilshire Boulevard Suite 210, Los Angeles, Ca 90010
+      china:
+        desc: |-
+          China Office
+          <br />
+          Shanghai Classtong Network Technologies Co., LTD. 1/F Building 2, 81 Fu Te Reload North, Wai Gao Qiao Free Trade Zone, Shanghai
+      japan:
+        desc: |-
+          Japan Office
+          <br />
+          Classting Japan, Inc. Keio Fujisawa Innovation Village (SFC-IV), 4489-105 Endo, Fujisawa-city, Kanagawa-prefecture, Tokyo, #252-0816
+      contact:
+        title: Contact us
+        main_email: Email
+        career_email: Career
+        phone: Tel
+        phone_no: 1544-0570
+        fax: Fax
+        fax_no: 070-8882-4886
+        phone_call: "+8215440570"
+        fax_send: "+8207088824886"
+  careers:
+    banner:
+      title: "Join us in building \n<br />\na better learning environment."
+    work1:
+      title: We listen to teachers, students, and parents.
+      desc: We are open to your opinions from teacher, student and parents. It helps us know what they need and think. The customer's voice tells us decide the direction we are headed.
+    work2:
+      title: We work for what's important to our customers.
+      desc: We develop products and learn through Agile process, Design sprint, etc. to find out what is important to our customers in the shortest time. We always make products that meet expectations in order to communicate and learn in classroom or home every day.
+    work3:
+      title: We work with global education leaders.
+      desc: We have participated in various studies with global education leaders such as the Classing Teachers Advisory Group, the US Educational Evaluation Institute, and the Seoul National University of Education. We measure the educational effect through Classing and pave the way for the future of education.
+    work4:
+      title: We value performance over formalities.
+      desc: We strive for a work environment where all team members can focus on achieving good results by evaluating the performance rather than obsessing over formalities. We provide a flexible and free work environment for each team member to achieve the best results.
+    work5:
+      title: We grow together.
+      desc: It's important to build up your expertise on a recurring basis, but it's always on your team so you can learn something new and grow. Opportunities to grow together by participating in challenging projects or conducting group studies are always open.
+    benefits1:
+      title: Food expenses
+      desc: We support lunch, dinner and high quality snacks.
+    benefits2:
+      title: Autonomous commute, remote work
+      desc: We provide an optimized work environment that allows you to get the best performance from self-commuting, remote work, and free vacation.
+    benefits3:
+      title: Competitive advantage
+      desc: We provide salary and stock options that are competent. Of course insurance is provided.
+    benefits4:
+      title: Self-development
+      desc: We support the purchase of IT equipment required for business, conference participation fee, and purchase of books.
+    openings:
+      title: Don't find what you're looking for?
+      desc1: People with dreams and skills are always welcome. Contact us at
+      desc2: and we will get back to you when an opening is available.
+  products:
+    banner:
+      title: |-
+        Building products that
+        <br />
+        understand people
+    class:
+      title: Class
+      desc: Class is for teachers, students and parents to participate and learn. Share announcements, posts, photos, video content and manage classrooms.
+    notice:
+      title: Noticeboard
+      desc: Teachers can deliver announcements to parents and students through PCs, smart phones and SMS. Pre-schedule a notice and even re-notify someone who has not checked yet.
+    newsfeed:
+      title: Newsfeed
+      desc: Stay up-to-date with our class news, recent activities from our online community, and more. You can light up or comment on posts.
+    school:
+      title: School
+      desc: Check the classes opened in my school, subscribe to school announcements, and meals information.
+    lc:
+      title: Learning Card
+      desc: Study with various contents such as English, math, science with your own smart device. You can efficiently study with recommended content every day.
+  business:
+    banner:
+      title: |-
+        Connecting schools,
+        <br />
+        homes and companies
+    content:
+      title: Educational content
+      desc: Reach out to Classting customers with various types of educational content, such as study books, reference books, and videos.
+    ad:
+      title: Educational products, brands
+      desc: Connect your educational products to your customers with customized products, brands and information.
+    developers:
+      title: Educational apps, services
+      desc: Use Classing API to create a convenient and rich educational service.
+  news:
+    company_intro:
+      title: Company Introduction
+      hint: Introduction of Classting Inc.
+    brand_guide:
+      title: Brand Guide
+      hint: Refer to the brand guide when using the Classting logo.
+    photos:
+      title: Photo kit
+      hint: Download official images related to Classting
+  brand:
+    logo:
+      title: Classting Logo
+      logotype:
+        title: Logotype
+        desc: Used the most.
+      glyph:
+        title: Glyph
+        desc: Used in UI with limited space.
+    logo_guide:
+      title: Logotype guide
+      green:
+        title: Classting Green
+        hint: Use for white backgrounds
+      yellow:
+        title: Classting Yellow
+        hint: Use for CT green background color or dark backgrounds.
+      white:
+        title: White
+        hint: Use for dark backgrounds or photos.
+    colors:
+      title: Brand Colors
+      green:
+        title: Classting Green
+        hint: |-
+          HEX #0abcad
+          <br>
+          CMYK 68/00/40/0
+      yellow:
+        title: Classting Yellow
+        hint: |-
+          HEX #fff988
+          <br>
+          CMYK 0/0/60/0
+    permission: Thank you for not changing the logo and colors.
+section_title:
+  about:
+    stats: Stats
+    leaders: Leaders
+    investors: Investors
+    office: Office
+  careers:
+    work: How we work
+    benefits: Office & Benefits
+    openings: Openings
+  products:
+    products: Products
+  business:
+    with_classting: Business with Classting
+    partners: Business Partnerships
+  news:
+    news: News
+  brand:
+    brand_guidelines: Brand Guide
+btn:
+  job_openings: Job Openings
+  view_guide: View guide
+  go_to_developers: Go to Developers
+  view_detail: View details
+  download_logo: Download logo
+  view_more: View more
+  prev: Previous
+  next: Next
+  return_to_list: Return to list
+footer:
+  classting: Classting
+  lc: Learning Card
+  developers: Developers
+  classting_inc: Classting Inc.
+message:
+  share_preview:
+    title: Classting Inc.
+    desc: Classing builds products to provide the best education and pave the way for a better learning environment.
+nav:
+  about: About us
+  careers: Careers
+  products: Products
+  business: Business
+  news: News
 ...

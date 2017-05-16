@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: ko-KR, Korean (Republic of Korea)
 # Exported by: classting
-# Exported at: Tue, 16 May 2017 07:53:30 +0100
+# Exported at: Tue, 16 May 2017 10:28:05 +0100
 ---
 page:
   about:
@@ -148,7 +148,7 @@ page:
       desc: 교사가 학생, 학부모에게 전달할 공지를 PC, 스마트폰, SMS로 빠짐없지 전달할 수 있습니다. 공지 예약해 보내고, 아직 확인 안한 사람에게 다시 보낼 수 있습니다.
     newsfeed:
       title: 소식
-      desc: 우리 반 새로운 소식, 온라인 커뮤니티의 최근 활동 등 최신 소식을 한번에 확인할 수 있습니다. 게시글빛내기를 누르거나 답글을 달 수 있습니다.
+      desc: 우리 반 새로운 소식, 온라인 커뮤니티의 최근 활동 등 최신 소식을 한번에 확인할 수 있습니다. 게시글 빛내기를 누르거나 답글을 달 수 있습니다.
     school:
       title: 스쿨
       desc: 내 학교에 개설된 클래스를 확인하고, 가정통신문, 학교 공지, 급식 정보를 구독해 받아볼 수 있습니다.
@@ -179,7 +179,7 @@ page:
       hint: 클래스팅 로고를 사용하실 때, 브랜드 가이드를 참고하세요.
     photos:
       title: 사진 자료실
-      hint: 클래스 서비스 관련 공식 이미지를 다운받으세요.
+      hint: 클래스팅 서비스 관련 공식 이미지를 다운받으세요.
   brand:
     logo:
       title: 클래스팅 로고
