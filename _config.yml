@@ -24,7 +24,7 @@ i18n:
     - news
 
 # URL
-url: https://company.classting.net
+url: https://about.classting.com
 root: /
 permalink: :lang/:title/
 permalink_defaults:
