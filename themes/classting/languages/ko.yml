@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: ko-KR, Korean (Republic of Korea)
 # Exported by: classting
-# Exported at: Wed, 17 May 2017 08:58:15 +0100
+# Exported at: Wed, 17 May 2017 11:18:35 +0100
 ---
 page:
   about:
@@ -160,10 +160,10 @@ page:
       title: |-
         클래스팅은 학교 - 가정 - 교육회사를 연결하고
         <br />
-        교육 정보 비대칭을 해소하고자 합니다.
+        교육 정보 불균형을 해소하고자 합니다.
     content:
-      title: 교육 컨텐츠
-      desc: 문제집, 참고서, 동영상 등 다양한 유형의 교육 컨텐츠를 클래스팅 고객과 연결합니다.
+      title: 교육 콘텐츠
+      desc: 문제집, 참고서, 동영상 등 다양한 유형의 교육 콘텐츠를 클래스팅 고객과 연결합니다.
     ad:
       title: 교육 상품, 브랜드, 정보
       desc: 교육 회사의 좋은 상품, 브랜드, 정보를 맞춤식으로 고객에게 연결합니다.
