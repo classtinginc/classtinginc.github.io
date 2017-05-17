@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: en-US, English (USA)
 # Exported by: classting
-# Exported at: Tue, 16 May 2017 10:28:06 +0100
+# Exported at: Wed, 17 May 2017 08:58:17 +0100
 ---
 page:
   about:
@@ -33,15 +33,15 @@ page:
       ceo:
         title: Dave Cho
         subtitle: Chief Executive Officer
-        desc: Former elementary teacher Cho Hyun-gu established Classing in 2013. During the graduate program of Computer Education at Seoul National University, he has developed Classting for students to learn how to enjoy the classroom.
+        desc: Dave, a former teacher, established Classing in 2013. During the graduate program of Computer Education at Seoul National University, he has developed Classting for students to learn how to enjoy the classroom.
       cto:
         title: Jayden Yoo
         subtitle: Chief Technology Officer
-        desc: Co-founder Yoo Jae-sang is the CTO of Classing and oversees service construction and engineering teams. He was an ETRI researcher and earned a master's degree in computer science from KAIST.
+        desc: Jayden is the co-founder and CTO of Classing and oversees service development and engineering teams. He was an ETRI researcher and earned a master's degree in computer science from KAIST.
       cso:
         title: Calvin Kang
         subtitle: Chief Strategy Officer
-        desc: Kang Kyung-hoon is the CSO of Classing and oversees business strategy and operations. He was the Uber Korea representative and I completed the INSEAD MBA.
+        desc: Calvin is the CSO of Classing and oversees business strategy and operations. He was the Uber Korea representative and I completed the INSEAD MBA.
       cio:
         title: Daniel Kim
         subtitle: Chief Information Officer
@@ -97,7 +97,7 @@ page:
       title: "Join us in building \n<br />\na better learning environment."
     work1:
       title: We listen to teachers, students, and parents.
-      desc: We are open to your opinions from teacher, student and parents. It helps us know what they need and think. The customer's voice tells us decide the direction we are headed.
+      desc: We are open to opinions from teachers, students and parents. It helps us know what they need and think. The customer's voice helps us decide the direction we are headed.
     work2:
       title: We work for what's important to our customers.
       desc: We develop products and learn through Agile process, Design sprint, etc. to find out what is important to our customers in the shortest time. We always make products that meet expectations in order to communicate and learn in classroom or home every day.
