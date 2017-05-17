@@ -29,7 +29,7 @@ Post를 생성합니다.
 생성 규칙은 아래와 같습니다.
 
 ```
-$ hexo g new {파일이름} --lang {ko 또는 en}
+$ hexo new {파일이름} --lang {ko 또는 en}
 ```
 
 `source/{ko 또는 en}`에 있는 파일을 열고, 상단의 `Front-matter`를 작성합니다.
