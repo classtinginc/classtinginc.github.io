@@ -4,27 +4,38 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <a class="navbar-brand" href="<%- url_for("/") %>">
+    <a class="navbar-brand" href="<%- url_for_lang("/") %>">
       <img src="/images/classting_logo.png" alt="Classting">
     </a>
 
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item<%- is_home() && !page.path.match(/news/) ? ' active' : '' %>">
-          <a class="nav-link" <a href="<%- url_for("/") %>"><%- __('nav.about') %></a>
+          <a class="nav-link" <a href="<%- url_for_lang("/") %>"><%- __('nav.about') %></a>
         </li>
         <li class="nav-item<%- page.path.match(/careers/) ? ' active' : '' %>">
-          <a class="nav-link" href="<%- url_for("/careers") %>"><%- __('nav.careers') %></a>
+          <a class="nav-link" href="<%- url_for_lang("/careers") %>"><%- __('nav.careers') %></a>
         </li>
         <li class="nav-item<%- page.path.match(/products/) ? ' active' : '' %>">
-          <a class="nav-link" href="<%- url_for("/products") %>"><%- __('nav.products') %></a>
+          <a class="nav-link" href="<%- url_for_lang("/products") %>"><%- __('nav.products') %></a>
         </li>
         <li class="nav-item<%- page.path.match(/business/) ? ' active' : '' %>">
-          <a class="nav-link" href="<%- url_for("/business") %>"><%- __('nav.business') %></a>
+          <a class="nav-link" href="<%- url_for_lang("/business") %>"><%- __('nav.business') %></a>
         </li>
         <li class="nav-item<%- page.path.match(/news/) ? ' active' : '' %>">
-          <a class="nav-link" href="<%- url_for("/news") %>"><%- __('nav.news') %></a>
+          <a class="nav-link" href="<%- url_for_lang("/news") %>"><%- __('nav.news') %></a>
         </li>
+      </ul>
+
+      <ul class="nav navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+          </a>
+        <div class="dropdown-menu" aria-labelledby="menu">
+          <a class="dropdown-item" href="<%- switch_lang('en') %>">English</a>
+          <a class="dropdown-item" href="<%- switch_lang('ko') %>">한국어</a>
+        </div>
       </ul>
     </div>
   </div>

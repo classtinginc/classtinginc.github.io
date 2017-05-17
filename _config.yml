@@ -24,7 +24,6 @@ i18n:
     - news
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://company.classting.net
 root: /
 permalink: :lang/:title/
@@ -41,10 +40,10 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :lang/:title.md # File name of new posts
+new_post_name: :lang/:title.md
 default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+titlecase: false
+external_link: true
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -56,24 +55,22 @@ highlight:
   auto_detect: false
   tab_replace:
 
-# Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
 
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 
-# Pagination
-per_page: 2
+per_page: 10
 pagination_dir: page
 
 news_generator:
   per_page: 10
+  order_by: -date
+
+index_generator:
+  per_page: 0
   order_by: -date
 
 alias:
