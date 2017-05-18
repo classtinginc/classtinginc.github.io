@@ -25,10 +25,24 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
+    <% if (page.lang === 'ko') { %>
+      <link rel="alternate" hreflang="x-default" href="<%- config.url + '/' + page.path %>" />
+    <% } else { %>
+      <link rel="alternate" hreflang="x-default" href="<%- config.url + '/' + page.path.replace(page.lang + '/', '') %>" />
+    <% } %>
+
+
     <% var languages = [].concat(config.language || []).filter(lang => lang !== 'default') %>
     <% languages.map(lang => { %>
-      <link rel="alternate" href="<%- config.url + '/' + (lang === 'ko' ? page.path : lang + '/' + page.path) %>" hreflang="<%= lang %>" />
+      <% if (lang === 'ko' && page.lang !== 'ko') { %>
+        <link rel="alternate" hreflang="<%= lang %>" href="<%- config.url + '/' + page.path.replace(page.lang + '/', '') %>" />
+      <% } else if (page.lang === 'ko') { %>
+        <link rel="alternate" hreflang="<%= lang %>" href="<%- config.url + '/' + (lang === 'ko' ? page.path : lang + '/' + page.path) %>" />
+      <% } else { %>
+        <link rel="alternate" hreflang="<%= lang %>" href="<%- config.url + '/' + page.path %>" />
+      <% } %>
     <% }) %>
+
 
     <%- autoCanonical(config, page) %>
     <%- css('css/font-awesome.min.css') %>
