@@ -75,7 +75,7 @@ $ sh ./deploy.sh {새로운 버전}
 ex) $ sh ./deploy.sh 1.1.0
 ```
 
-1~2분 후, [company.classting.net](https://compnay.classting.net)을 확인하세요.
+1~2분 후, [about.classting.com](https://about.classting.com)을 확인하세요.
 
 [배포 현황 파악하러 가기](https://circleci.com/dashboard)
 

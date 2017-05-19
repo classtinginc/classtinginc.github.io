@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: en-US, English (USA)
 # Exported by: classting
-# Exported at: Thu, 18 May 2017 09:57:44 +0100
+# Exported at: Fri, 19 May 2017 08:34:16 +0100
 ---
 page:
   about:
@@ -33,7 +33,7 @@ page:
       ceo:
         title: Dave Cho
         subtitle: Chief Executive Officer
-        desc: Dave, a former teacher, established Classing in 2013. During the graduate program of Computer Education at Seoul National University, he has developed Classting for students to learn how to enjoy the classroom.
+        desc: Dave, a former teacher, established Classting in 2013. During the graduate program of Computer Education at Seoul National University, he has developed Classting for students to learn how to enjoy the classroom.
       cto:
         title: Jayden Yoo
         subtitle: Chief Technology Officer
@@ -41,7 +41,7 @@ page:
       cso:
         title: Calvin Kang
         subtitle: Chief Strategy Officer
-        desc: Calvin is the CSO of Classing and oversees business strategy and operations. He was the Uber Korea representative and I completed the INSEAD MBA.
+        desc: Calvin is the CSO of Classting and oversees business strategy and operations. Prior to joining Classting, he was the General Manager of Uber Korea and received his received MBA degree from INSEAD.
       cio:
         title: Daniel Kim
         subtitle: Chief Information Officer

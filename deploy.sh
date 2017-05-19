@@ -7,6 +7,7 @@ echo ""
 echo ""
 
 git checkout master
+git pull origin master
 git merge develop
 git tag -a $VERSION_ARG -m "$VERSION_ARG"
 git push origin master
