@@ -53,20 +53,31 @@ link: # categories가 job일 경우에만 이동되야 할 link를 입력하세�
 
 ## Deploying
 
-언어별 문구 정보를 받아올 수 있습니다:
+***모든 작업은 반드시 Develop branch에서 작업합니다.***
+
+1. 최신 문구 정보를 받습니다.:
 
 ```
 $ sh ./pull_locale.sh
 ```
 
-히스토리와 상관없이 새로운 문구 정보가 포함되어 배포할 수 있습니다:
+2. 변경 사항이 있다면 commit합니다.:
 
 ```
-$ sh ./deploy.sh
+$ git commit
+```
+
+3. 업데이트 될 버전을 기입하고, 배포합니다.
+
+```
+$ sh ./deploy.sh {새로운 버전}
+
+ex) $ sh ./deploy.sh 1.1.0
 ```
 
 1~2분 후, [company.classting.net](https://compnay.classting.net)을 확인하세요.
 
+[배포 현황 파악하러 가기](https://circleci.com/dashboard)
 
 ## Library
 
