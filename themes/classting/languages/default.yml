@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: ko-KR, Korean (Republic of Korea)
 # Exported by: classting
-# Exported at: Mon, 22 May 2017 06:30:32 +0100
+# Exported at: Mon, 22 May 2017 08:55:25 +0100
 ---
 page:
   about:
@@ -259,4 +259,6 @@ nav:
   products: 제품
   business: 비즈니스
   news: 뉴스
+locale:
+  lang: ko
 ...
