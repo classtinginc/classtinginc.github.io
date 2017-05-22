@@ -3,14 +3,14 @@
 # Release: Working copy
 # Locale: en-US, English (USA)
 # Exported by: classting
-# Exported at: Mon, 22 May 2017 06:30:34 +0100
+# Exported at: Mon, 22 May 2017 09:48:24 +0100
 ---
 page:
   about:
     banner:
-      title: Classing dreams of a better school
+      title: Classting dreams of a better school
       desc: |-
-        Classing develops services that provide the best possible education
+        Classting develops services that provide the best possible education
         <br />
         even when one teacher has to teach many students
         <br />
@@ -27,7 +27,7 @@ page:
         Annual teacher retention rate
     culture:
       title: Classting Culture
-      desc: In Classing, we create a free culture to achieve the best results. A free working environment is maintained based on the belief that individuals will be responsible and perform best. And, rather than seeing it, we create a place where everyone can participate and resolve the problem together. We are working together to create a classroom where excellent ability and teamwork coexist to the goal of creating a better educational environment.
+      desc: In Classting, we create a free culture to achieve the best results. A free working environment is maintained based on the belief that individuals will be responsible and perform best. And, rather than seeing it, we create a place where everyone can participate and resolve the problem together. We are working together to create a classroom where excellent ability and teamwork coexist to the goal of creating a better educational environment.
     leaders:
       desc: "Team members from various fields gathered around the ex-teacher CEO.\n<br />\nWith convenient service and breakthrough technology, we are moving forward to a grand dream \n<br />\nof making a change in the educational environment around the world."
       ceo:
@@ -37,7 +37,7 @@ page:
       cto:
         title: Jayden Yoo
         subtitle: Chief Technology Officer
-        desc: Jayden is the co-founder and CTO of Classing and oversees service development and engineering teams. He was an ETRI researcher and earned a master's degree in computer science from KAIST.
+        desc: Jayden is the co-founder and CTO of Classting and oversees service development and engineering teams. He was an ETRI researcher and earned a master's degree in computer science from KAIST.
       cso:
         title: Calvin Kang
         subtitle: Chief Strategy Officer
@@ -45,7 +45,7 @@ page:
       cio:
         title: Daniel Kim
         subtitle: Chief Information Officer
-        desc: Daniel is the CIO of Classing and is responsible for data and infrastructure systems. Prior to joining Classing, he was responsible for designing and operating the VD apps server at Samsung Electronics DMC Research Center.
+        desc: Daniel is the CIO of Classting and is responsible for data and infrastructure systems. Prior to joining Classting, he was responsible for designing and operating the VD apps server at Samsung Electronics DMC Research Center.
       advisors:
         title: Advisors
       advisor1:
@@ -103,7 +103,7 @@ page:
       desc: We develop products and learn through Agile process, Design sprint, etc. to find out what is important to our customers in the shortest time. We always make products that meet expectations in order to communicate and learn in classroom or home every day.
     work3:
       title: We work with global education leaders.
-      desc: We have participated in various studies with global education leaders such as the Classing Teachers Advisory Group, the US Educational Evaluation Institute, and the Seoul National University of Education. We measure the educational effect through Classing and pave the way for the future of education.
+      desc: We have participated in various studies with global education leaders such as the Classting Teachers Advisory Group, the US Educational Evaluation Institute, and the Seoul National University of Education. We measure the educational effect through Classting and pave the way for the future of education.
     work4:
       title: We value performance over formalities.
       desc: We strive for a work environment where all team members can focus on achieving good results by evaluating the performance rather than obsessing over formalities. We provide a flexible and free work environment for each team member to achieve the best results.
@@ -161,7 +161,7 @@ page:
       desc: Connect your educational products to your customers with customized products, brands and information.
     developers:
       title: Educational apps, services
-      desc: Use Classing API to create a convenient and rich educational service.
+      desc: Use Classting API to create a convenient and rich educational service.
   news:
     company_intro:
       title: Company Introduction
@@ -244,11 +244,13 @@ footer:
 message:
   share_preview:
     title: Classting Inc.
-    desc: Classing builds products to provide the best education and pave the way for a better learning environment.
+    desc: Classting builds products to provide the best education and pave the way for a better learning environment.
 nav:
   about: About us
   careers: Careers
   products: Products
   business: Business
   news: News
+locale:
+  lang: en
 ...
