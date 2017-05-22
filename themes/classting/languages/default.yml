@@ -3,7 +3,11 @@
 # Release: Working copy
 # Locale: ko-KR, Korean (Republic of Korea)
 # Exported by: classting
+<<<<<<< HEAD
 # Exported at: Mon, 22 May 2017 08:55:25 +0100
+=======
+# Exported at: Mon, 22 May 2017 09:48:23 +0100
+>>>>>>> develop
 ---
 page:
   about:
@@ -36,7 +40,7 @@ page:
       ceo:
         title: 조현구
         subtitle: Chief Executive Officer
-        desc: 전 초등교사였던 조현구는 2013년에 클래스팅을 설립했습니다. 서울교대 컴퓨터교육 석사과정 중 교실에서 학생들이 즐겁게 배울 수 있는 방법을 연구 중 클래스팅을 직접 개발하게 되었습니다.
+        desc: 전 초등교사였던 조현구는 2013년에 클래스팅을 설립했습니다. 서울교대 컴퓨터교육 석사과정 중 교실에서 학생들이 즐겁게 배울 수 있는 방법을 연구하면서 클래스팅을 직접 개발하게 되었습니다.
       cto:
         title: 유재상
         subtitle: Chief Technology Officer
