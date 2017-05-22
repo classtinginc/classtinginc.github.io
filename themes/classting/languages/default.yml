@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: ko-KR, Korean (Republic of Korea)
 # Exported by: classting
-# Exported at: Fri, 19 May 2017 08:34:14 +0100
+# Exported at: Mon, 22 May 2017 06:30:32 +0100
 ---
 page:
   about:
@@ -207,13 +207,13 @@ page:
         hint: |-
           HEX #0abcad
           <br>
-          CMYK 68/00/40/0
+          CMYK 68,00,40,0
       yellow:
         title: Classting Yellow
         hint: |-
           HEX #fff988
           <br>
-          CMYK 0/0/60/0
+          CMYK 0,0,60,0
     permission: 로고 형태, 색상 등 모든 경우의 수정을 할 생각도 하지 않으셔서 감사드립니다.
 section_title:
   about:
