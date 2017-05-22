@@ -14,4 +14,4 @@ git push origin master
 git push origin $VERSION_ARG
 git checkout develop
 
-echo "Successed!"
+echo "Succeeded!"
