@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="<%- __('locale.lang') %>">
   <head>
     <title><%- page.title ? page.title + ' — ' : '' %><%= config.title %></title>
     <meta charset="utf-8">
@@ -48,7 +48,7 @@
     <%- css('css/font-awesome.min.css') %>
     <%- css('css/style') %>
   </head>
-  <body lang="<%- __('locale.lang') %>">
+  <body>
     <%- partial('_partial/header') %>
     <div id="page"><%- body %></div>
     <%- partial('_partial/footer') %>
