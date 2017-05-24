@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: ko-KR, Korean (Republic of Korea)
 # Exported by: classting
-# Exported at: Mon, 22 May 2017 09:48:23 +0100
+# Exported at: Wed, 24 May 2017 08:52:08 +0100
 ---
 page:
   about:
@@ -122,14 +122,14 @@ page:
       title: 식비 지원
       desc: 밥 걱정 안해도 됩니다. 점심, 저녁 그리고 퀄리티 높은 간식을 지원합니다.
     benefits2:
-      title: 자율 출퇴근, 원격 업무 가능
-      desc: 자율 출퇴근, 원격업무, 자유로운 휴가로 최고의 퍼포먼스를 낼 수 있는 최적화된 근무 환경을 제공합니다.
+      title: 자유로운 근무환경
+      desc: 자율 출퇴근, 재택근무, 원격업무, 자율 휴가제로 최고의 퍼포먼스를 낼 수 있는 최적화된 근무 환경을 제공합니다.
     benefits3:
       title: 경쟁력 있는 근로 조건
       desc: 역량에 맞는 연봉 및 스톡옵션을 제공합니다. 4대보험은 당연히 제공합니다.
     benefits4:
-      title: 자기계발비 지원
-      desc: 업무에 필요한 IT기기 구입비와 컨퍼런스 참가비, 도서 구입 등을 모두 지원합니다.
+      title: 자기계발, 동아리 활동 등 지원
+      desc: 업무에 필요한 IT기기 구입비와 컨퍼런스 참가비, 도서 구입 등을 모두 지원합니다. 사내 동아리 활동비로 다양한 활동도 하세요.
     openings:
       title: 혹시 찾고 계신 채용 포지션이 아직 없나요?
       desc1: 훌룡한 인재에게는 항상 문이 열려있습니다.

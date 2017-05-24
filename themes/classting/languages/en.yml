@@ -3,18 +3,16 @@
 # Release: Working copy
 # Locale: en-US, English (USA)
 # Exported by: classting
-# Exported at: Mon, 22 May 2017 09:48:24 +0100
+# Exported at: Wed, 24 May 2017 08:52:09 +0100
 ---
 page:
   about:
     banner:
       title: Classting dreams of a better school
       desc: |-
-        Classting develops services that provide the best possible education
+        With our technology, we improve communication in the classroom
         <br />
-        even when one teacher has to teach many students
-        <br />
-         and prepares a better learning environment for the next generation.
+        and make learning more efficient for teachers and students.
     stats:
       desc: |
         March 2017
@@ -23,25 +21,24 @@ page:
     stats2:
       title: active users per month
     stats3:
-      title: |
-        Annual teacher retention rate
+      title: annual teacher retention rate
     culture:
       title: Classting Culture
-      desc: In Classting, we create a free culture to achieve the best results. A free working environment is maintained based on the belief that individuals will be responsible and perform best. And, rather than seeing it, we create a place where everyone can participate and resolve the problem together. We are working together to create a classroom where excellent ability and teamwork coexist to the goal of creating a better educational environment.
+      desc: "We believe in a culture that: \n<br />o shares the passion to improve the education environment \n<br />o gives flexibility and accountability to each team member for a task at hand \n<br />o enables open and candid communication among team members \n<br />o respects differences of opinions and promotes discussions"
     leaders:
-      desc: "Team members from various fields gathered around the ex-teacher CEO.\n<br />\nWith convenient service and breakthrough technology, we are moving forward to a grand dream \n<br />\nof making a change in the educational environment around the world."
+      desc: "We believe that education is one of the cornerstones to creating a better humanity. \n<br />\nOur vision to improve the education environment for the future generation of the world."
       ceo:
         title: Dave Cho
         subtitle: Chief Executive Officer
-        desc: Dave, a former teacher, established Classting in 2013. During the graduate program of Computer Education at Seoul National University, he has developed Classting for students to learn how to enjoy the classroom.
+        desc: Dave is the founder and CEO of Classting. Prior to founding Classting, he served as an elementary teacher for 4 years and had written a thesis on adoption of technology in classrooms to improve education system.
       cto:
         title: Jayden Yoo
         subtitle: Chief Technology Officer
-        desc: Jayden is the co-founder and CTO of Classting and oversees service development and engineering teams. He was an ETRI researcher and earned a master's degree in computer science from KAIST.
+        desc: Jayden is the co-founder and CTO of Classting and oversees service development and engineering teams. Prior to Classting, he was a researcher at Electronics and Telecommunications Research Institute (ETRI) and earned a master's degree in computer science from KAIST.
       cso:
         title: Calvin Kang
         subtitle: Chief Strategy Officer
-        desc: Calvin is the CSO of Classting and oversees business strategy and operations. Prior to joining Classting, he was the General Manager of Uber Korea and received his received MBA degree from INSEAD.
+        desc: Calvin is the CSO of Classting and oversees business strategy and operations. Prior to joining Classting, he was the General Manager of Uber Korea and received his MBA degree from INSEAD.
       cio:
         title: Daniel Kim
         subtitle: Chief Information Officer
@@ -97,35 +94,35 @@ page:
       title: "Join us in building \n<br />\na better learning environment."
     work1:
       title: We listen to teachers, students, and parents.
-      desc: We are open to opinions from teachers, students and parents. It helps us know what they need and think. The customer's voice helps us decide the direction we are headed.
+      desc: We always keep our ears open to the ideas and opinions from teachers, students and parents. This has helped us to continue upgrading the app and introducing features that the users love to use.
     work2:
       title: We work for what's important to our customers.
-      desc: We develop products and learn through Agile process, Design sprint, etc. to find out what is important to our customers in the shortest time. We always make products that meet expectations in order to communicate and learn in classroom or home every day.
+      desc: We adopt a rigorous internal discussion process including Agile process and Design Sprint to expedite our finding of what the users need the most. We strive to exceed user expectations with each of our upgrades and features so that users can benefit from our products in classrooms and at home everyday.
     work3:
-      title: We work with global education leaders.
-      desc: We have participated in various studies with global education leaders such as the Classting Teachers Advisory Group, the US Educational Evaluation Institute, and the Seoul National University of Education. We measure the educational effect through Classting and pave the way for the future of education.
+      title: We cooperate with global education leaders.
+      desc: Our vision is shared with global education leaders including the US Educational Evaluation Institute, US Educational Evaluation Institute, Seoul National University of Education, and Classting Teachers Advisory Group. Through studies and co-researches, we search for the best way to transform education environment for the future generations of the world.
     work4:
-      title: We value performance over formalities.
-      desc: We strive for a work environment where all team members can focus on achieving good results by evaluating the performance rather than obsessing over formalities. We provide a flexible and free work environment for each team member to achieve the best results.
+      title: We promote efficiency over formality.
+      desc: We promote a flexible work environment for the team members to maximize their performance. We welcome applicants who are the most suitable for the responsibility regardless of their prior work experience or academic background.
     work5:
       title: We grow together.
-      desc: It's important to build up your expertise on a recurring basis, but it's always on your team so you can learn something new and grow. Opportunities to grow together by participating in challenging projects or conducting group studies are always open.
+      desc: As a team, we motivate each other to continue improving through participating in challenging projects or conducting group studies.
     benefits1:
-      title: Food expenses
-      desc: We support lunch, dinner and high quality snacks.
+      title: Food & Beverage
+      desc: We support lunch, dinner and snacks for your optimal performance.
     benefits2:
-      title: Autonomous commute, remote work
-      desc: We provide an optimized work environment that allows you to get the best performance from self-commuting, remote work, and free vacation.
+      title: Flexible working environment
+      desc: We provide flexible working environment in terms of working hours, vacation time and remote work, as long as you complete your work with high standards.
     benefits3:
-      title: Competitive advantage
-      desc: We provide salary and stock options that are competent. Of course insurance is provided.
+      title: Competitive compensation package
+      desc: We provide salary, stock options and insurance that are competitive to the market.
     benefits4:
       title: Self-development
-      desc: We support the purchase of IT equipment required for business, conference participation fee, and purchase of books.
+      desc: We support the purchase of IT equipment, conference participation tickets, and books that are relevant for your continuous personal and professional development.
     openings:
       title: Don't find what you're looking for?
-      desc1: People with dreams and skills are always welcome. Contact us at
-      desc2: and we will get back to you when an opening is available.
+      desc1: Please submit your resume if you share our vision and have the relevant skills to transform the education environment. Contact us at
+      desc2: and we will get back to you when a suitable position is available.
   products:
     banner:
       title: |-
@@ -134,19 +131,19 @@ page:
         understand people
     class:
       title: Class
-      desc: Class is for teachers, students and parents to participate and learn. Share announcements, posts, photos, video content and manage classrooms.
+      desc: Class is a place for teachers, students and parents to communicate and participate. Share announcements, posts, photos and video contents and manage classrooms.
     notice:
       title: Noticeboard
-      desc: Teachers can deliver announcements to parents and students through PCs, smart phones and SMS. Pre-schedule a notice and even re-notify someone who has not checked yet.
+      desc: Teachers can deliver announcements to parents and students through PCs, smart phones and SMS. Notices can be pre-scheduled or resent to members who have not checked the notices.
     newsfeed:
       title: Newsfeed
-      desc: Stay up-to-date with our class news, recent activities from our online community, and more. You can light up or comment on posts.
+      desc: Stay up-to-date with your class news, recent activities from online communities, and more. You can react with light up or comment on posts.
     school:
       title: School
-      desc: Check the classes opened in my school, subscribe to school announcements, and meals information.
+      desc: Check the classes listed in my school, subscribe to school announcements, newsletters and daily meal information.
     lc:
       title: Learning Card
-      desc: Study with various contents such as English, math, science with your own smart device. You can efficiently study with recommended content every day.
+      desc: Study with various contents such as English, Math and Science on your own smart device. Study efficiently with personalized daily recommendation of learning contents.
   business:
     banner:
       title: |-
@@ -154,24 +151,24 @@ page:
         <br />
         homes and companies
     content:
-      title: Educational content
-      desc: Reach out to Classting customers with various types of educational content, such as study books, reference books, and videos.
+      title: Educational contents
+      desc: Expand users of your educational contents, such as study books, reference books or videos through Classting’s learning platform.
     ad:
-      title: Educational products, brands
-      desc: Connect your educational products to your customers with customized products, brands and information.
+      title: Educational products & information
+      desc: Promote your educational products and services to targeted group of Classting’s users.
     developers:
-      title: Educational apps, services
-      desc: Use Classting API to create a convenient and rich educational service.
+      title: Educational apps & services
+      desc: Use Classting API to improve your user experience.
   news:
     company_intro:
       title: Company Introduction
       hint: Introduction of Classting Inc.
     brand_guide:
       title: Brand Guide
-      hint: Refer to the brand guide when using the Classting logo.
+      hint: Please follow our brand guideline when using the Classting logo.
     photos:
       title: Photo kit
-      hint: Download official images related to Classting
+      hint: Please download our official images here.
   brand:
     logo:
       title: Classting Logo
@@ -215,7 +212,7 @@ section_title:
     office: Office
   careers:
     work: How we work
-    benefits: Office & Benefits
+    benefits: Perks & Benefits
     openings: Openings
   products:
     products: Products
