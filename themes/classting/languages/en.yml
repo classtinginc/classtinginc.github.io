@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: en-US, English (USA)
 # Exported by: classting
-# Exported at: Wed, 24 May 2017 08:06:15 +0100
+# Exported at: Wed, 24 May 2017 08:52:09 +0100
 ---
 page:
   about:
@@ -21,20 +21,10 @@ page:
     stats2:
       title: active users per month
     stats3:
-      title: |
-        Annual teacher retention rate
+      title: annual teacher retention rate
     culture:
       title: Classting Culture
-      desc: |-
-        We believe in a culture that:
-        <br />
-        o   shares the passion to improve the education environment
-        <br />
-        o   gives flexibility and accountability to each team member for a task at hand
-        <br />
-        o   enables open and candid communication among team members
-        <br />
-        o   respects differences of opinions and promotes discussions
+      desc: "We believe in a culture that: \n<br />o shares the passion to improve the education environment \n<br />o gives flexibility and accountability to each team member for a task at hand \n<br />o enables open and candid communication among team members \n<br />o respects differences of opinions and promotes discussions"
     leaders:
       desc: "We believe that education is one of the cornerstones to creating a better humanity. \n<br />\nOur vision to improve the education environment for the future generation of the world."
       ceo:
