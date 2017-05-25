@@ -1,5 +1,5 @@
 ---
-title: 주니어 개발자
+title: Front-end 엔지니어
 lang: ko
 date: 2017-05-24 18:00:59
 categories: job
