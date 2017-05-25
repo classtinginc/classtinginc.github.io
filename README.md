@@ -55,6 +55,14 @@ link: # categories가 job일 경우에만 이동되야 할 link를 입력하세�
 
 ***모든 작업은 반드시 Develop branch에서 작업합니다.***
 
+### 일반 배포 ###
+
+```
+$ sh ./deploy.sh
+```
+
+### 정기 배포 ###
+
 1. 최신 문구 정보를 받습니다.:
 
 ```
@@ -70,9 +78,14 @@ $ git commit
 3. 업데이트 될 버전을 기입하고, 배포합니다.
 
 ```
-$ sh ./deploy.sh {새로운 버전}
+$ git checkout master
+$ git pull origin master
+$ git merge develop
+$ git tag -a {버전 이름} -m "{버전 이름}"
+$ git push origin master
+$ git push origin {버전 이름}
+$ git checkout develop
 
-ex) $ sh ./deploy.sh 1.1.0
 ```
 
 1~2분 후, [about.classting.com](https://about.classting.com)을 확인하세요.

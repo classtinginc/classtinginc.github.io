@@ -7,4 +7,4 @@ curl "https://localise.biz:443/api/export/locale/en.yml?format=symfony&key=YWrNI
 
 cp ./themes/classting/languages/ko.yml ./themes/classting/languages/default.yml
 
-echo "Successed!"
+echo "Locale download complete!"
