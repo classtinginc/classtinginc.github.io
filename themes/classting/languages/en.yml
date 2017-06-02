@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: en-US, English (USA)
 # Exported by: classting
-# Exported at: Thu, 25 May 2017 03:59:44 +0100
+# Exported at: Fri, 02 Jun 2017 07:53:22 +0100
 ---
 page:
   about:
@@ -58,17 +58,17 @@ page:
       korea:
         title: Korea Office
         desc: |-
-          Classting, Inc. 3F, 21, Apgujeong-ro 10-gil, Gangnam-gu, Seoul
+          Classting, Inc. 8F, 22, Seocho-daero 78-gil, Seocho-gu, Seoul
           <br />
-          #135-889
+          #06621
       parking:
         title: 'Parking:'
-        desc: Use Masa building parking space
+        desc: 1hr free parking
       us:
         desc: |-
           US Office
           <br />
-          Classting America, Inc 3530 Wilshire Boulevard Suite 210, Los Angeles, Ca 90010
+          Classting America, Inc 3530 Wilshire Boulevard Suite 210, Los Angeles, CA 90010
       china:
         desc: |-
           China Office

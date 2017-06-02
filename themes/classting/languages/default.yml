@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: ko-KR, Korean (Republic of Korea)
 # Exported by: classting
-# Exported at: Thu, 25 May 2017 03:59:42 +0100
+# Exported at: Fri, 02 Jun 2017 07:53:21 +0100
 ---
 page:
   about:
@@ -64,19 +64,17 @@ page:
       korea:
         title: 한국 본사
         desc: |-
-          서울특별시 강남구 압구정로10길 21, 3층, (주)클래스팅
+          서울특별시 서초구 서초대로 78길 22 홍우빌딩 8층, (주) 클래스팅
           <br />
-          (신사동, 533-1)
-          <br />
-          우편번호 06028
+          우편번호 06621
       parking:
         title: '주차:'
-        desc: 인근 마사빌딩 주차장 이용 (서울특별시 강남구 압구정로10길 13)
+        desc: 1시간 무료 주차 가능
       us:
         desc: |-
           미국 법인
           <br />
-          Classting America, Inc 3530 Wilshire Boulevard Suite 210, Los Angeles, Ca 90010
+          Classting America, Inc 3530 Wilshire Boulevard Suite 210, Los Angeles, CA 90010
       china:
         desc: |-
           중국 법인
@@ -94,7 +92,7 @@ page:
         phone: 대표번호
         phone_no: 1544-0570
         fax: 팩스
-        fax_no: 070-8882-4886
+        fax_no: 02-6302-7011
         phone_call: "+8215440570"
         fax_send: "+8207088824886"
   careers:
