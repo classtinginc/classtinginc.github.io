@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: ko-KR, Korean (Republic of Korea)
 # Exported by: classting
-# Exported at: Fri, 02 Jun 2017 10:05:13 +0100
+# Exported at: Mon, 05 Jun 2017 08:43:34 +0100
 ---
 page:
   about:
@@ -191,7 +191,7 @@ page:
         title: Logotype
         desc: 가장 많이 사용합니다.
       glyph:
-        title: Glyph
+        title: Symbol
         desc: 공간이 부족한 UI에서 사용합니다.
     logo_guide:
       title: 로고타입 가이드
@@ -203,15 +203,15 @@ page:
         hint: CT Green 색상 혹은 어두운 색상의 배경에 이용하세요.
       white:
         title: White
-        hint: 배경이 어두운 경우 혹은 사진 배경에 이용하세요.
+        hint: CT Green 색상 혹은 사진, 어두운 색상의 배경에 이용하세요.
     colors:
       title: 브랜드 컬러
       green:
         title: Classting Green
         hint: |-
-          HEX #0abcad
+          HEX #00C896
           <br>
-          CMYK 68,00,40,0
+          PANTONE 3395C
       yellow:
         title: Classting Yellow
         hint: |-

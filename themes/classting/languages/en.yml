@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: en-US, English (USA)
 # Exported by: classting
-# Exported at: Fri, 02 Jun 2017 10:05:14 +0100
+# Exported at: Mon, 05 Jun 2017 08:43:35 +0100
 ---
 page:
   about:
@@ -194,15 +194,15 @@ page:
         hint: Use for CT green background color or dark backgrounds.
       white:
         title: White
-        hint: Use for dark backgrounds or photos.
+        hint: Use for CT green color, dark backgrounds, or photos.
     colors:
       title: Brand Colors
       green:
         title: Classting Green
         hint: |-
-          HEX #0abcad
+          HEX #00C896
           <br>
-          CMYK 68/00/40/0
+          PANTONE 3395C
       yellow:
         title: Classting Yellow
         hint: |-
