@@ -5,5 +5,5 @@ date: 2017-05-24 18:00:59
 categories: job
 tags:
 publisher: Data lab
-link: http://www.jobkorea.co.kr/Recruit/GI_Read/21244526?Oem_Code=C71
+link: https://github.com/classtinginc/apply/blob/master/datalab/junior.md
 ---

@@ -5,5 +5,5 @@ date: 2017-05-15 17:21:22
 categories: job
 tags:
 publisher: Soft lab
-link: https://github.com/classtinginc/apply/blob/master/advertisement-pm.md
+link: https://github.com/classtinginc/apply/blob/master/softlab/advertisement-pm.md
 ---
