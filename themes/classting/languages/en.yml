@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: en-US, English (USA)
 # Exported by: classting
-# Exported at: Thu, 25 May 2017 03:59:44 +0100
+# Exported at: Mon, 05 Jun 2017 08:43:35 +0100
 ---
 page:
   about:
@@ -58,17 +58,17 @@ page:
       korea:
         title: Korea Office
         desc: |-
-          Classting, Inc. 3F, 21, Apgujeong-ro 10-gil, Gangnam-gu, Seoul
+          Classting, Inc. 8F, 22, Seocho-daero 78-gil, Seocho-gu, Seoul
           <br />
-          #135-889
+          #06621
       parking:
         title: 'Parking:'
-        desc: Use Masa building parking space
+        desc: 1hr free parking
       us:
         desc: |-
           US Office
           <br />
-          Classting America, Inc 3530 Wilshire Boulevard Suite 210, Los Angeles, Ca 90010
+          Classting America, Inc 3530 Wilshire Boulevard Suite 210, Los Angeles, CA 90010
       china:
         desc: |-
           China Office
@@ -144,6 +144,12 @@ page:
     lc:
       title: Learning Card
       desc: Study with various contents such as English, Math and Science on your own smart device. Study efficiently with personalized daily recommendation of learning contents.
+    learning:
+      title: Classting Learning
+      desc: |-
+        (Coming soon)
+        <br>
+        Effectively prepare learning materials for class. Use existing learning materials from various sources, create new assignments, assign tasks to classes, and collect results. Check students' achievements at a glance and analyze their strengths and weak spots.
   business:
     banner:
       title: |-
@@ -188,15 +194,15 @@ page:
         hint: Use for CT green background color or dark backgrounds.
       white:
         title: White
-        hint: Use for dark backgrounds or photos.
+        hint: Use for CT green color, dark backgrounds, or photos.
     colors:
       title: Brand Colors
       green:
         title: Classting Green
         hint: |-
-          HEX #0abcad
+          HEX #00C896
           <br>
-          CMYK 68/00/40/0
+          PANTONE 3395C
       yellow:
         title: Classting Yellow
         hint: |-
