@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: ko-KR, Korean (Republic of Korea)
 # Exported by: classting
-# Exported at: Mon, 05 Jun 2017 08:43:34 +0100
+# Exported at: Wed, 07 Jun 2017 07:17:20 +0100
 ---
 page:
   about:
@@ -154,11 +154,11 @@ page:
       title: 러닝카드
       desc: 내 스마트기기 하나로 영어, 수학, 과학 등 다양한 과목의 교육 콘텐츠로 학습할 수 있습니다. 매일 추천되는 콘텐츠로 효율적인 공부를 할 수 있습니다.
     learning:
-      title: 클래스팅 러닝
+      title: 러닝
       desc: |-
         (6월중 출시 예정)
         <br>
-        클래스팅 러닝으로 효과적인 수업 준비와 학습 활동을 할 수 있습니다. 학습자료를 찾거나 새로 만들어 클래스에 과제로 내고 결과를 취합할 수 있습니다. 학생들의 성취도를 비교 분석해 학생들의 상황을 한 눈에 확인할 수 있습니다.
+        러닝으로 효과적인 수업 준비와 학습 활동을 할 수 있습니다. 학습자료를 찾거나 새로 만들어 클래스에 과제로 내고 결과를 취합할 수 있습니다. 학생들의 성취도를 비교 분석해 학생들의 상황을 한 눈에 확인할 수 있습니다.
   business:
     banner:
       title: |-
