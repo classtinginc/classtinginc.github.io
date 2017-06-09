@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: ko-KR, Korean (Republic of Korea)
 # Exported by: classting
-# Exported at: Wed, 07 Jun 2017 07:17:20 +0100
+# Exported at: Fri, 09 Jun 2017 02:24:24 +0100
 ---
 page:
   about:
@@ -87,14 +87,16 @@ page:
           Classting Japan, Inc. Keio Fujisawa Innovation Village (SFC-IV), 4489-105 Endo, Fujisawa-city, Kanagawa-prefecture, Tokyo, #252-0816
       contact:
         title: 문의하기
-        main_email: 일반문의
         career_email: 채용문의
         phone: 대표번호
-        phone_no: 1544-0570
+        phone_no: 02-6302-7093
         fax: 팩스
         fax_no: 02-6302-7011
-        phone_call: "+8215440570"
+        phone_call: "+820263027093"
         fax_send: "+8207088824886"
+        business: 광고/제휴문의
+        business_call: "+820263027095"
+        business_no: 02-6302-7095
   careers:
     banner:
       title: |-
