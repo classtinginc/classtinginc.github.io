@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: ko-KR, Korean (Republic of Korea)
 # Exported by: classting
-# Exported at: Fri, 09 Jun 2017 02:24:24 +0100
+# Exported at: Tue, 13 Jun 2017 10:09:07 +0100
 ---
 page:
   about:
@@ -97,6 +97,9 @@ page:
         business: 광고/제휴문의
         business_call: "+820263027095"
         business_no: 02-6302-7095
+        support: 고객센터
+        support_call: "+8215440570"
+        support_no: 1544-0570
   careers:
     banner:
       title: |-
@@ -153,8 +156,11 @@ page:
       title: 스쿨
       desc: 내 학교에 개설된 클래스를 확인하고, 가정통신문, 학교 공지, 급식 정보를 구독해 받아볼 수 있습니다.
     lc:
-      title: 러닝카드
-      desc: 내 스마트기기 하나로 영어, 수학, 과학 등 다양한 과목의 교육 콘텐츠로 학습할 수 있습니다. 매일 추천되는 콘텐츠로 효율적인 공부를 할 수 있습니다.
+      title: 러닝+
+      desc: |-
+        (구) 러닝카드
+        <br>
+        내 스마트기기 하나로 영어, 수학, 과학 등 다양한 과목의 교육 콘텐츠로 학습할 수 있습니다. 매일 추천되는 콘텐츠로 효율적인 공부를 할 수 있습니다.
     learning:
       title: 러닝
       desc: |-
@@ -252,7 +258,7 @@ btn:
   return_to_list: 목록으로 돌아가기
 footer:
   classting: Classting
-  lc: Learning Card
+  lc: Learning+
   developers: Developers
   classting_inc: 주식회사 클래스팅
 message:

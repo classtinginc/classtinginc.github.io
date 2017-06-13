@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: en-US, English (USA)
 # Exported by: classting
-# Exported at: Fri, 09 Jun 2017 02:24:25 +0100
+# Exported at: Tue, 13 Jun 2017 10:09:10 +0100
 ---
 page:
   about:
@@ -91,6 +91,9 @@ page:
         business: Business
         business_call: "+820263027095"
         business_no: 02-6302-7095
+        support: Support
+        support_call: "+8215440570"
+        support_no: 1544-0570
   careers:
     banner:
       title: "Join us in building \n<br />\na better learning environment."
@@ -144,7 +147,7 @@ page:
       title: School
       desc: Check the classes listed in my school, subscribe to school announcements, newsletters and daily meal information.
     lc:
-      title: Learning Card
+      title: Learning+
       desc: Study with various contents such as English, Math and Science on your own smart device. Study efficiently with personalized daily recommendation of learning contents.
     learning:
       title: Classting Learning
@@ -243,7 +246,7 @@ btn:
   return_to_list: Return to list
 footer:
   classting: Classting
-  lc: Learning Card
+  lc: Learning+
   developers: Developers
   classting_inc: Classting Inc.
 message:
