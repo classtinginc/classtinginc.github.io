@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: en-US, English (USA)
 # Exported by: classting
-# Exported at: Tue, 13 Jun 2017 10:09:10 +0100
+# Exported at: Fri, 16 Jun 2017 10:26:24 +0100
 ---
 page:
   about:
@@ -147,14 +147,11 @@ page:
       title: School
       desc: Check the classes listed in my school, subscribe to school announcements, newsletters and daily meal information.
     lc:
-      title: Learning+
+      title: Learning Plus
       desc: Study with various contents such as English, Math and Science on your own smart device. Study efficiently with personalized daily recommendation of learning contents.
     learning:
-      title: Classting Learning
-      desc: |-
-        (Coming soon)
-        <br>
-        Effectively prepare learning materials for class. Use existing learning materials from various sources, create new assignments, assign tasks to classes, and collect results. Check students' achievements at a glance and analyze their strengths and weak spots.
+      title: Learning
+      desc: Effectively prepare learning materials for class. Use existing learning materials from various sources, create new assignments, assign tasks to classes, and collect results. Check students' achievements at a glance and analyze their strengths and weak spots.
   business:
     banner:
       title: |-
@@ -246,7 +243,7 @@ btn:
   return_to_list: Return to list
 footer:
   classting: Classting
-  lc: Learning+
+  lc: Learning Plus
   developers: Developers
   classting_inc: Classting Inc.
 message:
