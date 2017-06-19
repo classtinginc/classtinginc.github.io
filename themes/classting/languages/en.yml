@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: en-US, English (USA)
 # Exported by: classting
-# Exported at: Fri, 16 Jun 2017 10:26:24 +0100
+# Exported at: Mon, 19 Jun 2017 02:22:43 +0100
 ---
 page:
   about:
@@ -15,13 +15,13 @@ page:
         and make learning more efficient for teachers and students.
     stats:
       desc: |
-        March 2017
+        June 2017
     stats1:
-      title: active teachers per month
+      title: total users
     stats2:
-      title: active users per month
+      title: active teachers
     stats3:
-      title: annual teacher retention rate
+      title: active schools
     culture:
       title: Classting Culture
       desc: 'Passion to improve the education environment is Classting’s core DNA. We approach our passion with: objective-driven mindset, a sense of urgency, and respect for each other.'
