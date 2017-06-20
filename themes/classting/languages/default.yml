@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: ko-KR, Korean (Republic of Korea)
 # Exported by: classting
-# Exported at: Mon, 19 Jun 2017 02:22:41 +0100
+# Exported at: Tue, 20 Jun 2017 07:26:45 +0100
 ---
 page:
   about:
@@ -59,7 +59,7 @@ page:
         desc: 서울교육대학교 총장
       advisor3:
         title: Li Cai
-        desc: UCLA CRESST 연구소장
+        desc: 미국국립교육평가연구소 <br />UCLA CRESST 소장
     office:
       korea:
         title: 한국 본사
@@ -157,10 +157,7 @@ page:
       desc: 내 학교에 개설된 클래스를 확인하고, 가정통신문, 학교 공지, 급식 정보를 구독해 받아볼 수 있습니다.
     lc:
       title: 러닝 플러스
-      desc: |-
-        (구) 러닝카드
-        <br>
-        내 스마트기기 하나로 영어, 수학, 과학 등 다양한 과목의 교육 콘텐츠로 학습할 수 있습니다. 매일 추천되는 콘텐츠로 효율적인 공부를 할 수 있습니다.
+      desc: 내 스마트기기 하나로 영어, 수학, 과학 등 다양한 과목의 교육 콘텐츠로 학습할 수 있습니다. 매일 추천되는 콘텐츠로 효율적인 공부를 할 수 있습니다.
     learning:
       title: 러닝
       desc: 러닝으로 효과적인 수업 준비와 학습 활동을 할 수 있습니다. 학습자료를 찾거나 새로 만들어 클래스에 과제로 내고 결과를 취합할 수 있습니다. 학생들의 성취도를 비교 분석해 학생들의 상황을 한 눈에 확인할 수 있습니다.
