@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: ko-KR, Korean (Republic of Korea)
 # Exported by: classting
-# Exported at: Wed, 02 Aug 2017 02:40:25 +0100
+# Exported at: Mon, 21 Aug 2017 08:56:25 +0100
 ---
 page:
   about:
@@ -94,7 +94,7 @@ page:
         fax_no: 02-6302-7011
         phone_call: "+820263027093"
         fax_send: "+8207088824886"
-        business: 광고/제휴문의
+        business: 광고/제휴/채용문의
         business_call: "+820263027095"
         business_no: 02-6302-7095
         support: 고객센터
