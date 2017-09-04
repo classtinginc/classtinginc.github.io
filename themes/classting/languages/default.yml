@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: ko-KR, Korean (Republic of Korea)
 # Exported by: classting
-# Exported at: Tue, 29 Aug 2017 02:34:22 +0100
+# Exported at: Mon, 04 Sep 2017 06:18:39 +0100
 ---
 page:
   about:
@@ -64,9 +64,9 @@ page:
       korea:
         title: 한국 본사
         desc: |-
-          서울특별시 서초구 서초대로 78길 22 홍우빌딩 8층, (주) 클래스팅
+          서울특별시 강남구 테헤란로 507, 6층(삼성동), (주) 클래스팅
           <br />
-          우편번호 06621
+          우편번호 06168
       parking:
         title: '주차:'
         desc: 1시간 무료 주차 가능

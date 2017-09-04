@@ -3,7 +3,7 @@
 # Release: Working copy
 # Locale: en-US, English (USA)
 # Exported by: classting
-# Exported at: Tue, 29 Aug 2017 02:34:23 +0100
+# Exported at: Mon, 04 Sep 2017 06:18:41 +0100
 ---
 page:
   about:
@@ -58,9 +58,9 @@ page:
       korea:
         title: Korea Office
         desc: |-
-          Classting, Inc. 8F, 22, Seocho-daero 78-gil, Seocho-gu, Seoul
+          Classting, Inc. 6F, 507 Teheran-ro Gangnamgu Seoul
           <br />
-          #06621
+          #06168
       parking:
         title: 'Parking:'
         desc: 1hr free parking
