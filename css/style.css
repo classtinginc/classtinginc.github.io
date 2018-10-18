@@ -475,6 +475,9 @@ body {
 .business-partnerships img {
   margin: auto;
 }
+.image-caption {
+  font-size: 0.8em;
+}
 .presskit {
   padding: 32px 0 !important;
 }
