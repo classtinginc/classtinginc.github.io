@@ -453,22 +453,22 @@ body {
 .benefit p {
   margin-bottom: 0;
 }
-.embed {
+.embed-recruiting {
   margin-top: 0;
   padding: 0 !important;
 }
 @media only screen and (max-width: 575px) {
-  .embed {
+  .embed-recruiting {
     margin-bottom: 64px;
   }
 }
-.embed .video-wrapper {
+.embed-recruiting .video-wrapper {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
   padding-top: 56.25%;
 }
-.embed .video-wrapper .fb-iframe {
+.embed-recruiting .video-wrapper .fb-iframe {
   position: absolute;
   top: 0;
   left: 0;
