@@ -275,11 +275,22 @@ body {
   margin-top: 100px;
   margin-bottom: -50px;
 }
+@media only screen and (max-width: 575px) {
+  .embed {
+    margin-top: 0;
+    margin-bottom: -100px;
+  }
+}
 .embed .video-wrapper {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
   padding-top: 56.25%;
+}
+@media only screen and (max-width: 575px) {
+  .embed .video-wrapper {
+    padding-top: 70%;
+  }
 }
 .embed .video-wrapper .youtube-iframe {
   position: absolute;
