@@ -454,7 +454,13 @@ body {
   margin-bottom: 0;
 }
 .embed {
+  margin-top: 0;
   padding: 0 !important;
+}
+@media only screen and (max-width: 575px) {
+  .embed {
+    margin-bottom: 64px;
+  }
 }
 .embed .video-wrapper {
   margin: 0 auto;
